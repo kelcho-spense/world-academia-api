@@ -1,0 +1,96 @@
+###
+# Get all Todos
+GET http://localhost:8000/api/todos
+Accept: application/json
+
+###
+# Get a Todo by ID
+GET http://localhost:8000/api/todos/63bf99ef0f470d3923c7ca6f
+Accept: application/json
+
+###
+# Create a new Todo
+POST http://localhost:8000/api/todos
+Content-Type: application/json
+Accept: application/json
+
+{
+  "title": "Buy Groceries",
+  "description": "Milk, Bread, Eggs"
+}
+
+###
+# Update a Todo
+PUT http://localhost:8000/api/todos/66bf99ef0f470d3923c7ca7f
+Content-Type: application/json
+Accept: application/json
+
+{
+  "title": "Buy Groceries and Cleaning Supplies",
+  "description": "Milk, Bread, Eggs, and Detergent",
+  "completed": false
+}
+
+###
+# Delete a Todo
+DELETE http://localhost:8000/api/todos/66c10d8fa7d8a9d2ba0973f7
+Accept: application/json
+
+###
+# Register a new User or Admin
+POST http://localhost:8000/api/auth/register
+Content-Type: application/json
+Accept: application/json
+
+{
+  "email": "admin@example.com",
+  "password": "admin_password",
+  "role": "admin"
+}
+
+###
+# Login as User or Admin
+POST http://localhost:8000/api/auth/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "email": "updatedadmin@example.com",
+  "password": "updateadmin_password"
+}
+
+###
+# Approve a User (Admin only)
+PUT http://localhost:8000/api/auth/approve/66c1f05fc1b9c4add56ef270
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YzEzM2FhYTg0ZGVmZjA0OGI4ODU1MSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcyMzk4NjAzMSwiZXhwIjoxNzIzOTg5NjMxfQ.7wTMvwtb3aQgZgJyqoUdFsrP-4k1WYsKxSobzMNg964
+Accept: application/json
+
+###
+# Get all Users (Admin only)
+GET http://localhost:8000/api/auth/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YzEzM2FhYTg0ZGVmZjA0OGI4ODU1MSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcyMzkzNzg1MSwiZXhwIjoxNzIzOTQxNDUxfQ.dXXQb32G8qrh4P1mQNbS2lTDBWlG5h3S-MQmC9JnpAs
+Accept: application/json
+
+###
+# Update User or Admin's own profile
+PUT http://localhost:8000/api/auth/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YzEzM2FhYTg0ZGVmZjA0OGI4ODU1MSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcyMzkzNzc1NywiZXhwIjoxNzIzOTQxMzU3fQ.FCTYz4XzS_rU1XysbCpwN5MszYCqdTxmBJ_srKtGhv8
+Content-Type: application/json
+Accept: application/json
+
+{
+  "email": "updatedadmin@example.com",
+  "password": "updateadmin_password"
+}
+
+###
+# Delete User or Admin's own profile
+DELETE http://localhost:8000/api/auth/me
+Authorization: Bearer <your_user_or_admin_jwt_token>
+Accept: application/json
+
+###
+# Shared Action accessible by both Users and Admins
+GET http://localhost:8000/api/auth/shared-action
+Authorization: Bearer <your_user_or_admin_jwt_token>
+Accept: application/json
