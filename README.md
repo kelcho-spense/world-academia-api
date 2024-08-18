@@ -68,7 +68,9 @@ Create a `.env` file in the root of your project and configure the necessary env
 
 ```
 PORT=8000
-MONGO_URI=mongodb://mongo:27017/university
+NODE_ENV=development   ## NODE_ENV=production or development
+MONGO_URI=mongodb://localhost:27017/tododb
+COSMOS_URI=
 JWT_SECRET=your_jwt_secret_key
 ```
 
