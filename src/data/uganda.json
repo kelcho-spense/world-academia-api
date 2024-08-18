@@ -1,0 +1,292 @@
+[
+    {
+        "country": "Uganda",
+        "alpha_two_code": "UG",
+        "domains": [
+            "mak.ac.ug"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.mak.ac.ug"
+        ],
+        "name": "Makerere University",
+        "continent": "Africa",
+        "established_year": 1922,
+        "student_population": 35000,
+        "programs_offered": [
+            "Medicine",
+            "Engineering",
+            "Law",
+            "Business",
+            "Agriculture"
+        ],
+        "contact_info": {
+            "address": "Kampala, Uganda",
+            "phone": "+256 414 533332",
+            "email": "info@mak.ac.ug"
+        },
+        "latitude": 0.3314,
+        "longitude": 32.5704
+    },
+    {
+        "country": "Uganda",
+        "alpha_two_code": "UG",
+        "domains": [
+            "kyu.ac.ug"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.kyu.ac.ug"
+        ],
+        "name": "Kyambogo University",
+        "continent": "Africa",
+        "established_year": 2003,
+        "student_population": 23000,
+        "programs_offered": [
+            "Engineering",
+            "Education",
+            "Arts",
+            "Business",
+            "Science"
+        ],
+        "contact_info": {
+            "address": "Kampala, Uganda",
+            "phone": "+256 414 286452",
+            "email": "info@kyu.ac.ug"
+        },
+        "latitude": 0.3667,
+        "longitude": 32.6333
+    },
+    {
+        "country": "Uganda",
+        "alpha_two_code": "UG",
+        "domains": [
+            "must.ac.ug"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.must.ac.ug"
+        ],
+        "name": "Mbarara University of Science and Technology",
+        "continent": "Africa",
+        "established_year": 1989,
+        "student_population": 4000,
+        "programs_offered": [
+            "Medicine",
+            "Science",
+            "Engineering",
+            "Education",
+            "Computer Science"
+        ],
+        "contact_info": {
+            "address": "Mbarara, Uganda",
+            "phone": "+256 485 420450",
+            "email": "info@must.ac.ug"
+        },
+        "latitude": -0.6074,
+        "longitude": 30.6545
+    },
+    {
+        "country": "Uganda",
+        "alpha_two_code": "UG",
+        "domains": [
+            "ucu.ac.ug"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.ucu.ac.ug"
+        ],
+        "name": "Uganda Christian University",
+        "continent": "Africa",
+        "established_year": 1997,
+        "student_population": 12000,
+        "programs_offered": [
+            "Theology",
+            "Law",
+            "Business",
+            "Education",
+            "Social Sciences"
+        ],
+        "contact_info": {
+            "address": "Mukono, Uganda",
+            "phone": "+256 312 350800",
+            "email": "info@ucu.ac.ug"
+        },
+        "latitude": 0.3534,
+        "longitude": 32.7559
+    },
+    {
+        "country": "Uganda",
+        "alpha_two_code": "UG",
+        "domains": [
+            "bugemauniv.ac.ug"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.bugemauniv.ac.ug"
+        ],
+        "name": "Bugema University",
+        "continent": "Africa",
+        "established_year": 1948,
+        "student_population": 5000,
+        "programs_offered": [
+            "Education",
+            "Business",
+            "Theology",
+            "Agriculture",
+            "Computer Science"
+        ],
+        "contact_info": {
+            "address": "Bugema, Uganda",
+            "phone": "+256 312 351400",
+            "email": "info@bugemauniv.ac.ug"
+        },
+        "latitude": 0.6987,
+        "longitude": 32.5315
+    },
+    {
+        "country": "Uganda",
+        "alpha_two_code": "UG",
+        "domains": [
+            "nkumbauniversity.ac.ug"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.nkumbauniversity.ac.ug"
+        ],
+        "name": "Nkumba University",
+        "continent": "Africa",
+        "established_year": 1994,
+        "student_population": 10000,
+        "programs_offered": [
+            "Law",
+            "Business",
+            "Education",
+            "Social Sciences",
+            "Hospitality Management"
+        ],
+        "contact_info": {
+            "address": "Entebbe, Uganda",
+            "phone": "+256 414 375147",
+            "email": "info@nkumbauniversity.ac.ug"
+        },
+        "latitude": 0.0542,
+        "longitude": 32.4753
+    },
+    {
+        "country": "Uganda",
+        "alpha_two_code": "UG",
+        "domains": [
+            "umuc.ac.ug"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.umuc.ac.ug"
+        ],
+        "name": "Uganda Martyrs University",
+        "continent": "Africa",
+        "established_year": 1993,
+        "student_population": 4000,
+        "programs_offered": [
+            "Development Studies",
+            "Business",
+            "Education",
+            "Health Sciences",
+            "Agriculture"
+        ],
+        "contact_info": {
+            "address": "Nkozi, Uganda",
+            "phone": "+256 486 444000",
+            "email": "info@umuc.ac.ug"
+        },
+        "latitude": 0.0015,
+        "longitude": 32.0012
+    },
+    {
+        "country": "Uganda",
+        "alpha_two_code": "UG",
+        "domains": [
+            "kisuniversity.ac.ug"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.kisuniversity.ac.ug"
+        ],
+        "name": "Kampala International University",
+        "continent": "Africa",
+        "established_year": 2001,
+        "student_population": 25000,
+        "programs_offered": [
+            "Medicine",
+            "Engineering",
+            "Business",
+            "Education",
+            "Law"
+        ],
+        "contact_info": {
+            "address": "Kampala, Uganda",
+            "phone": "+256 414 266813",
+            "email": "info@kisuniversity.ac.ug"
+        },
+        "latitude": 0.3107,
+        "longitude": 32.5963
+    },
+    {
+        "country": "Uganda",
+        "alpha_two_code": "UG",
+        "domains": [
+            "mubs.ac.ug"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.mubs.ac.ug"
+        ],
+        "name": "Makerere University Business School",
+        "continent": "Africa",
+        "established_year": 1997,
+        "student_population": 18000,
+        "programs_offered": [
+            "Business",
+            "Management",
+            "Entrepreneurship",
+            "Finance",
+            "Marketing"
+        ],
+        "contact_info": {
+            "address": "Kampala, Uganda",
+            "phone": "+256 414 338120",
+            "email": "info@mubs.ac.ug"
+        },
+        "latitude": 0.3349,
+        "longitude": 32.5957
+    },
+    {
+        "country": "Uganda",
+        "alpha_two_code": "UG",
+        "domains": [
+            "muni.ac.ug"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.muni.ac.ug"
+        ],
+        "name": "Muni University",
+        "continent": "Africa",
+        "established_year": 2013,
+        "student_population": 1500,
+        "programs_offered": [
+            "Science",
+            "Education",
+            "Information Technology",
+            "Business Administration",
+            "Health Sciences"
+        ],
+        "contact_info": {
+            "address": "Arua, Uganda",
+            "phone": "+256 476 420311",
+            "email": "info@muni.ac.ug"
+        },
+        "latitude": 3.0208,
+        "longitude": 30.9174
+    }
+]

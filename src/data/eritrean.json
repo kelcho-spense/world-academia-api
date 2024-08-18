@@ -1,0 +1,147 @@
+[
+    {
+        "country": "Eritrea",
+        "alpha_two_code": "ER",
+        "domains": [
+            "eru.edu.er"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "http://www.eru.edu.er"
+        ],
+        "name": "Eritrea Institute of Technology",
+        "continent": "Africa",
+        "established_year": 2003,
+        "student_population": 5000,
+        "programs_offered": [
+            "Engineering",
+            "Science",
+            "Education",
+            "Computer Science",
+            "Business"
+        ],
+        "contact_info": {
+            "address": "Mai Nefhi, Eritrea",
+            "phone": "+291 1 181 377",
+            "email": "info@eru.edu.er"
+        },
+        "latitude": 15.2765,
+        "longitude": 38.8964
+    },
+    {
+        "country": "Eritrea",
+        "alpha_two_code": "ER",
+        "domains": [
+            "adikeihuniversity.edu.er"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "http://www.adikeihuniversity.edu.er"
+        ],
+        "name": "Adi Keih College of Arts and Social Sciences",
+        "continent": "Africa",
+        "established_year": 2007,
+        "student_population": 3000,
+        "programs_offered": [
+            "Social Sciences",
+            "Arts",
+            "Humanities",
+            "Education",
+            "Languages"
+        ],
+        "contact_info": {
+            "address": "Adi Keih, Eritrea",
+            "phone": "+291 1 181 377",
+            "email": "info@adikeihuniversity.edu.er"
+        },
+        "latitude": 14.8453,
+        "longitude": 39.3777
+    },
+    {
+        "country": "Eritrea",
+        "alpha_two_code": "ER",
+        "domains": [
+            "hamelmaloagriculturalcollege.edu.er"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "http://www.hamelmaloagriculturalcollege.edu.er"
+        ],
+        "name": "Hamelmalo Agricultural College",
+        "continent": "Africa",
+        "established_year": 2005,
+        "student_population": 2500,
+        "programs_offered": [
+            "Agriculture",
+            "Natural Resources",
+            "Environmental Science",
+            "Animal Science",
+            "Plant Science"
+        ],
+        "contact_info": {
+            "address": "Hamelmalo, Eritrea",
+            "phone": "+291 1 181 377",
+            "email": "info@hamelmaloagriculturalcollege.edu.er"
+        },
+        "latitude": 15.9444,
+        "longitude": 38.8167
+    },
+    {
+        "country": "Eritrea",
+        "alpha_two_code": "ER",
+        "domains": [
+            "orc.edu.er"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "http://www.orc.edu.er"
+        ],
+        "name": "Orotta School of Medicine and Dentistry",
+        "continent": "Africa",
+        "established_year": 2004,
+        "student_population": 1500,
+        "programs_offered": [
+            "Medicine",
+            "Dentistry",
+            "Nursing",
+            "Pharmacy",
+            "Public Health"
+        ],
+        "contact_info": {
+            "address": "Asmara, Eritrea",
+            "phone": "+291 1 181 377",
+            "email": "info@orc.edu.er"
+        },
+        "latitude": 15.3229,
+        "longitude": 38.9251
+    },
+    {
+        "country": "Eritrea",
+        "alpha_two_code": "ER",
+        "domains": [
+            "coer.edu.er"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "http://www.coer.edu.er"
+        ],
+        "name": "College of Marine Sciences and Technology",
+        "continent": "Africa",
+        "established_year": 2007,
+        "student_population": 1000,
+        "programs_offered": [
+            "Marine Sciences",
+            "Fisheries",
+            "Environmental Science",
+            "Aquaculture",
+            "Marine Engineering"
+        ],
+        "contact_info": {
+            "address": "Massawa, Eritrea",
+            "phone": "+291 1 181 377",
+            "email": "info@coer.edu.er"
+        },
+        "latitude": 15.6091,
+        "longitude": 39.4754
+    }
+]

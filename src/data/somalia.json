@@ -1,0 +1,292 @@
+[
+    {
+        "country": "Somalia",
+        "alpha_two_code": "SO",
+        "domains": [
+            "mu.edu.so"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "http://www.mu.edu.so"
+        ],
+        "name": "Mogadishu University",
+        "continent": "Africa",
+        "established_year": 1997,
+        "student_population": 6000,
+        "programs_offered": [
+            "Business Administration",
+            "Computer Science",
+            "Law",
+            "Health Sciences",
+            "Education"
+        ],
+        "contact_info": {
+            "address": "Mogadishu, Somalia",
+            "phone": "+252 1 858 615",
+            "email": "info@mu.edu.so"
+        },
+        "latitude": 2.0469,
+        "longitude": 45.3182
+    },
+    {
+        "country": "Somalia",
+        "alpha_two_code": "SO",
+        "domains": [
+            "simad.edu.so"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "http://www.simad.edu.so"
+        ],
+        "name": "SIMAD University",
+        "continent": "Africa",
+        "established_year": 1999,
+        "student_population": 4500,
+        "programs_offered": [
+            "Business Administration",
+            "Information Technology",
+            "Economics",
+            "Social Sciences",
+            "Law"
+        ],
+        "contact_info": {
+            "address": "Mogadishu, Somalia",
+            "phone": "+252 1 858 616",
+            "email": "info@simad.edu.so"
+        },
+        "latitude": 2.0339,
+        "longitude": 45.3042
+    },
+    {
+        "country": "Somalia",
+        "alpha_two_code": "SO",
+        "domains": [
+            "benadiruniversity.net"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "http://www.benadiruniversity.net"
+        ],
+        "name": "Benadir University",
+        "continent": "Africa",
+        "established_year": 2002,
+        "student_population": 3500,
+        "programs_offered": [
+            "Medicine",
+            "Health Sciences",
+            "Nursing",
+            "Public Health",
+            "Pharmacy"
+        ],
+        "contact_info": {
+            "address": "Mogadishu, Somalia",
+            "phone": "+252 1 858 617",
+            "email": "info@benadiruniversity.net"
+        },
+        "latitude": 2.0591,
+        "longitude": 45.3261
+    },
+    {
+        "country": "Somalia",
+        "alpha_two_code": "SO",
+        "domains": [
+            "amouduniversity.org"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "http://www.amouduniversity.org"
+        ],
+        "name": "Amoud University",
+        "continent": "Africa",
+        "established_year": 1998,
+        "student_population": 4000,
+        "programs_offered": [
+            "Agriculture",
+            "Health Sciences",
+            "Business Administration",
+            "Education",
+            "Social Sciences"
+        ],
+        "contact_info": {
+            "address": "Borama, Somalia",
+            "phone": "+252 2 445 0180",
+            "email": "info@amouduniversity.org"
+        },
+        "latitude": 9.9375,
+        "longitude": 43.1819
+    },
+    {
+        "country": "Somalia",
+        "alpha_two_code": "SO",
+        "domains": [
+            "hormuuduniversity.com"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "http://www.hormuuduniversity.com"
+        ],
+        "name": "Hormuud University",
+        "continent": "Africa",
+        "established_year": 2010,
+        "student_population": 2000,
+        "programs_offered": [
+            "Business Administration",
+            "Computer Science",
+            "Information Technology",
+            "Education",
+            "Social Sciences"
+        ],
+        "contact_info": {
+            "address": "Mogadishu, Somalia",
+            "phone": "+252 1 858 618",
+            "email": "info@hormuuduniversity.com"
+        },
+        "latitude": 2.0531,
+        "longitude": 45.3225
+    },
+    {
+        "country": "Somalia",
+        "alpha_two_code": "SO",
+        "domains": [
+            "somaliauniversity.com"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "http://www.somaliauniversity.com"
+        ],
+        "name": "University of Somalia (UNISO)",
+        "continent": "Africa",
+        "established_year": 2005,
+        "student_population": 3000,
+        "programs_offered": [
+            "Business Administration",
+            "Law",
+            "Computer Science",
+            "Health Sciences",
+            "Education"
+        ],
+        "contact_info": {
+            "address": "Mogadishu, Somalia",
+            "phone": "+252 1 858 619",
+            "email": "info@somaliauniversity.com"
+        },
+        "latitude": 2.0471,
+        "longitude": 45.3185
+    },
+    {
+        "country": "Somalia",
+        "alpha_two_code": "SO",
+        "domains": [
+            "eastafricauniversity.net"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "http://www.eastafricauniversity.net"
+        ],
+        "name": "East Africa University",
+        "continent": "Africa",
+        "established_year": 1999,
+        "student_population": 5000,
+        "programs_offered": [
+            "Business Administration",
+            "Health Sciences",
+            "Information Technology",
+            "Education",
+            "Social Sciences"
+        ],
+        "contact_info": {
+            "address": "Bosaso, Somalia",
+            "phone": "+252 5 847 021",
+            "email": "info@eastafricauniversity.net"
+        },
+        "latitude": 11.2823,
+        "longitude": 49.1821
+    },
+    {
+        "country": "Somalia",
+        "alpha_two_code": "SO",
+        "domains": [
+            "hopeuniversitysomalia.com"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "http://www.hopeuniversitysomalia.com"
+        ],
+        "name": "Hope University",
+        "continent": "Africa",
+        "established_year": 2008,
+        "student_population": 1800,
+        "programs_offered": [
+            "Education",
+            "Social Sciences",
+            "Business Administration",
+            "Information Technology",
+            "Health Sciences"
+        ],
+        "contact_info": {
+            "address": "Hargeisa, Somalia",
+            "phone": "+252 2 444 0190",
+            "email": "info@hopeuniversitysomalia.com"
+        },
+        "latitude": 9.5631,
+        "longitude": 44.0650
+    },
+    {
+        "country": "Somalia",
+        "alpha_two_code": "SO",
+        "domains": [
+            "plu.edu.so"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "http://www.plu.edu.so"
+        ],
+        "name": "Puntland State University",
+        "continent": "Africa",
+        "established_year": 1999,
+        "student_population": 2500,
+        "programs_offered": [
+            "Business Administration",
+            "Information Technology",
+            "Health Sciences",
+            "Education",
+            "Social Sciences"
+        ],
+        "contact_info": {
+            "address": "Garowe, Somalia",
+            "phone": "+252 5 846 071",
+            "email": "info@plu.edu.so"
+        },
+        "latitude": 8.4054,
+        "longitude": 48.4846
+    },
+    {
+        "country": "Somalia",
+        "alpha_two_code": "SO",
+        "domains": [
+            "jobkeyuniversity.com"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "http://www.jobkeyuniversity.com"
+        ],
+        "name": "Jobkey University",
+        "continent": "Africa",
+        "established_year": 2011,
+        "student_population": 1500,
+        "programs_offered": [
+            "Business Administration",
+            "Health Sciences",
+            "Information Technology",
+            "Education",
+            "Social Sciences"
+        ],
+        "contact_info": {
+            "address": "Mogadishu, Somalia",
+            "phone": "+252 1 858 620",
+            "email": "info@jobkeyuniversity.com"
+        },
+        "latitude": 2.0486,
+        "longitude": 45.3123
+    }
+]

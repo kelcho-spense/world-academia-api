@@ -1,0 +1,292 @@
+[
+    {
+        "country": "Tanzania",
+        "alpha_two_code": "TZ",
+        "domains": [
+            "udsm.ac.tz"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.udsm.ac.tz"
+        ],
+        "name": "University of Dar es Salaam",
+        "continent": "Africa",
+        "established_year": 1961,
+        "student_population": 21000,
+        "programs_offered": [
+            "Engineering",
+            "Business",
+            "Law",
+            "Education",
+            "Natural Sciences"
+        ],
+        "contact_info": {
+            "address": "University Rd, Dar es Salaam, Tanzania",
+            "phone": "+255 22 2410500",
+            "email": "info@udsm.ac.tz"
+        },
+        "latitude": -6.7747,
+        "longitude": 39.2391
+    },
+    {
+        "country": "Tanzania",
+        "alpha_two_code": "TZ",
+        "domains": [
+            "sua.ac.tz"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.sua.ac.tz"
+        ],
+        "name": "Sokoine University of Agriculture",
+        "continent": "Africa",
+        "established_year": 1984,
+        "student_population": 12000,
+        "programs_offered": [
+            "Agriculture",
+            "Veterinary Medicine",
+            "Forestry",
+            "Environmental Science",
+            "Food Science"
+        ],
+        "contact_info": {
+            "address": "Chuo Kikuu, Morogoro, Tanzania",
+            "phone": "+255 23 2603511",
+            "email": "info@sua.ac.tz"
+        },
+        "latitude": -6.8278,
+        "longitude": 37.6591
+    },
+    {
+        "country": "Tanzania",
+        "alpha_two_code": "TZ",
+        "domains": [
+            "aru.ac.tz"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.aru.ac.tz"
+        ],
+        "name": "Ardhi University",
+        "continent": "Africa",
+        "established_year": 2007,
+        "student_population": 5000,
+        "programs_offered": [
+            "Architecture",
+            "Urban Planning",
+            "Real Estate",
+            "Environmental Engineering",
+            "Geospatial Sciences"
+        ],
+        "contact_info": {
+            "address": "P.O. Box 35176, Dar es Salaam, Tanzania",
+            "phone": "+255 22 2775004",
+            "email": "info@aru.ac.tz"
+        },
+        "latitude": -6.7731,
+        "longitude": 39.2402
+    },
+    {
+        "country": "Tanzania",
+        "alpha_two_code": "TZ",
+        "domains": [
+            "tumainimakumira.ac.tz"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.tumainimakumira.ac.tz"
+        ],
+        "name": "Tumaini University Makumira",
+        "continent": "Africa",
+        "established_year": 1997,
+        "student_population": 3500,
+        "programs_offered": [
+            "Theology",
+            "Education",
+            "Law",
+            "Business Administration",
+            "Social Sciences"
+        ],
+        "contact_info": {
+            "address": "Makumira, Arusha, Tanzania",
+            "phone": "+255 27 2970011",
+            "email": "info@tumainimakumira.ac.tz"
+        },
+        "latitude": -3.3714,
+        "longitude": 36.8500
+    },
+    {
+        "country": "Tanzania",
+        "alpha_two_code": "TZ",
+        "domains": [
+            "out.ac.tz"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.out.ac.tz"
+        ],
+        "name": "The Open University of Tanzania",
+        "continent": "Africa",
+        "established_year": 1992,
+        "student_population": 35000,
+        "programs_offered": [
+            "Education",
+            "Law",
+            "Business Administration",
+            "Science",
+            "Humanities"
+        ],
+        "contact_info": {
+            "address": "Kinondoni, Dar es Salaam, Tanzania",
+            "phone": "+255 22 2668820",
+            "email": "info@out.ac.tz"
+        },
+        "latitude": -6.7667,
+        "longitude": 39.2389
+    },
+    {
+        "country": "Tanzania",
+        "alpha_two_code": "TZ",
+        "domains": [
+            "udom.ac.tz"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.udom.ac.tz"
+        ],
+        "name": "University of Dodoma",
+        "continent": "Africa",
+        "established_year": 2007,
+        "student_population": 26000,
+        "programs_offered": [
+            "Health Sciences",
+            "Education",
+            "Humanities",
+            "Business",
+            "Engineering"
+        ],
+        "contact_info": {
+            "address": "P.O. Box 259, Dodoma, Tanzania",
+            "phone": "+255 26 2310000",
+            "email": "info@udom.ac.tz"
+        },
+        "latitude": -6.1630,
+        "longitude": 35.7516
+    },
+    {
+        "country": "Tanzania",
+        "alpha_two_code": "TZ",
+        "domains": [
+            "muhas.ac.tz"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.muhas.ac.tz"
+        ],
+        "name": "Muhimbili University of Health and Allied Sciences",
+        "continent": "Africa",
+        "established_year": 1963,
+        "student_population": 3000,
+        "programs_offered": [
+            "Medicine",
+            "Nursing",
+            "Pharmacy",
+            "Public Health",
+            "Dentistry"
+        ],
+        "contact_info": {
+            "address": "P.O. Box 65001, Dar es Salaam, Tanzania",
+            "phone": "+255 22 2150302",
+            "email": "info@muhas.ac.tz"
+        },
+        "latitude": -6.8076,
+        "longitude": 39.2697
+    },
+    {
+        "country": "Tanzania",
+        "alpha_two_code": "TZ",
+        "domains": [
+            "mzumbe.ac.tz"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.mzumbe.ac.tz"
+        ],
+        "name": "Mzumbe University",
+        "continent": "Africa",
+        "established_year": 2001,
+        "student_population": 10000,
+        "programs_offered": [
+            "Business Administration",
+            "Public Administration",
+            "Law",
+            "Economics",
+            "Information Technology"
+        ],
+        "contact_info": {
+            "address": "Morogoro, Tanzania",
+            "phone": "+255 23 2931224",
+            "email": "info@mzumbe.ac.tz"
+        },
+        "latitude": -6.8781,
+        "longitude": 37.6547
+    },
+    {
+        "country": "Tanzania",
+        "alpha_two_code": "TZ",
+        "domains": [
+            "ruco.ac.tz"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.ruco.ac.tz"
+        ],
+        "name": "Ruaha Catholic University",
+        "continent": "Africa",
+        "established_year": 2005,
+        "student_population": 4000,
+        "programs_offered": [
+            "Law",
+            "Education",
+            "Business Administration",
+            "Human Resource Management",
+            "Information Technology"
+        ],
+        "contact_info": {
+            "address": "P.O. Box 774, Iringa, Tanzania",
+            "phone": "+255 26 2702431",
+            "email": "info@ruco.ac.tz"
+        },
+        "latitude": -7.7666,
+        "longitude": 35.6901
+    },
+    {
+        "country": "Tanzania",
+        "alpha_two_code": "TZ",
+        "domains": [
+            "stjohns.ac.tz"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.stjohns.ac.tz"
+        ],
+        "name": "St. John's University of Tanzania",
+        "continent": "Africa",
+        "established_year": 2007,
+        "student_population": 5000,
+        "programs_offered": [
+            "Education",
+            "Business Administration",
+            "Law",
+            "Humanities",
+            "Science"
+        ],
+        "contact_info": {
+            "address": "Dodoma, Tanzania",
+            "phone": "+255 26 2390044",
+            "email": "info@stjohns.ac.tz"
+        },
+        "latitude": -6.1750,
+        "longitude": 35.7394
+    }
+]

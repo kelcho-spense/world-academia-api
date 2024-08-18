@@ -1,0 +1,292 @@
+[
+    {
+        "country": "Ethiopia",
+        "alpha_two_code": "ET",
+        "domains": [
+            "aau.edu.et"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.aau.edu.et"
+        ],
+        "name": "Addis Ababa University",
+        "continent": "Africa",
+        "established_year": 1950,
+        "student_population": 47000,
+        "programs_offered": [
+            "Engineering",
+            "Medicine",
+            "Law",
+            "Business",
+            "Social Sciences"
+        ],
+        "contact_info": {
+            "address": "Addis Ababa, Ethiopia",
+            "phone": "+251 11 123 4567",
+            "email": "info@aau.edu.et"
+        },
+        "latitude": 9.038,
+        "longitude": 38.7613
+    },
+    {
+        "country": "Ethiopia",
+        "alpha_two_code": "ET",
+        "domains": [
+            "haramaya.edu.et"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.haramaya.edu.et"
+        ],
+        "name": "Haramaya University",
+        "continent": "Africa",
+        "established_year": 1954,
+        "student_population": 32000,
+        "programs_offered": [
+            "Agriculture",
+            "Veterinary Medicine",
+            "Health Sciences",
+            "Business",
+            "Engineering"
+        ],
+        "contact_info": {
+            "address": "Haramaya, Ethiopia",
+            "phone": "+251 25 553 0333",
+            "email": "info@haramaya.edu.et"
+        },
+        "latitude": 9.4057,
+        "longitude": 42.0188
+    },
+    {
+        "country": "Ethiopia",
+        "alpha_two_code": "ET",
+        "domains": [
+            "ju.edu.et"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.ju.edu.et"
+        ],
+        "name": "Jimma University",
+        "continent": "Africa",
+        "established_year": 1983,
+        "student_population": 43000,
+        "programs_offered": [
+            "Public Health",
+            "Medicine",
+            "Agriculture",
+            "Engineering",
+            "Business"
+        ],
+        "contact_info": {
+            "address": "Jimma, Ethiopia",
+            "phone": "+251 47 111 0841",
+            "email": "info@ju.edu.et"
+        },
+        "latitude": 7.6735,
+        "longitude": 36.8358
+    },
+    {
+        "country": "Ethiopia",
+        "alpha_two_code": "ET",
+        "domains": [
+            "bahirdaruniv.edu.et"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.bdu.edu.et"
+        ],
+        "name": "Bahir Dar University",
+        "continent": "Africa",
+        "established_year": 2000,
+        "student_population": 54000,
+        "programs_offered": [
+            "Engineering",
+            "Education",
+            "Agriculture",
+            "Law",
+            "Business"
+        ],
+        "contact_info": {
+            "address": "Bahir Dar, Ethiopia",
+            "phone": "+251 58 220 3857",
+            "email": "info@bdu.edu.et"
+        },
+        "latitude": 11.5936,
+        "longitude": 37.3908
+    },
+    {
+        "country": "Ethiopia",
+        "alpha_two_code": "ET",
+        "domains": [
+            "astu.edu.et"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.astu.edu.et"
+        ],
+        "name": "Adama Science and Technology University",
+        "continent": "Africa",
+        "established_year": 1993,
+        "student_population": 25000,
+        "programs_offered": [
+            "Engineering",
+            "Science",
+            "Technology",
+            "Business",
+            "Information Technology"
+        ],
+        "contact_info": {
+            "address": "Adama, Ethiopia",
+            "phone": "+251 22 111 9600",
+            "email": "info@astu.edu.et"
+        },
+        "latitude": 8.5461,
+        "longitude": 39.2688
+    },
+    {
+        "country": "Ethiopia",
+        "alpha_two_code": "ET",
+        "domains": [
+            "mu.edu.et"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.mu.edu.et"
+        ],
+        "name": "Mekelle University",
+        "continent": "Africa",
+        "established_year": 2000,
+        "student_population": 32000,
+        "programs_offered": [
+            "Engineering",
+            "Law",
+            "Agriculture",
+            "Medicine",
+            "Business"
+        ],
+        "contact_info": {
+            "address": "Mekelle, Ethiopia",
+            "phone": "+251 34 441 0244",
+            "email": "info@mu.edu.et"
+        },
+        "latitude": 13.4967,
+        "longitude": 39.4756
+    },
+    {
+        "country": "Ethiopia",
+        "alpha_two_code": "ET",
+        "domains": [
+            "amu.edu.et"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.amu.edu.et"
+        ],
+        "name": "Arba Minch University",
+        "continent": "Africa",
+        "established_year": 1986,
+        "student_population": 25000,
+        "programs_offered": [
+            "Water Resource Engineering",
+            "Science",
+            "Business Administration",
+            "Social Sciences",
+            "Agriculture"
+        ],
+        "contact_info": {
+            "address": "Arba Minch, Ethiopia",
+            "phone": "+251 46 881 4965",
+            "email": "info@amu.edu.et"
+        },
+        "latitude": 6.0402,
+        "longitude": 37.5509
+    },
+    {
+        "country": "Ethiopia",
+        "alpha_two_code": "ET",
+        "domains": [
+            "wdu.edu.et"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.wdu.edu.et"
+        ],
+        "name": "Wollega University",
+        "continent": "Africa",
+        "established_year": 2007,
+        "student_population": 22000,
+        "programs_offered": [
+            "Engineering",
+            "Education",
+            "Business",
+            "Health Sciences",
+            "Social Sciences"
+        ],
+        "contact_info": {
+            "address": "Nekemte, Ethiopia",
+            "phone": "+251 57 661 1100",
+            "email": "info@wdu.edu.et"
+        },
+        "latitude": 9.0820,
+        "longitude": 36.5298
+    },
+    {
+        "country": "Ethiopia",
+        "alpha_two_code": "ET",
+        "domains": [
+            "adigratuniversity.edu.et"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.adigratuniversity.edu.et"
+        ],
+        "name": "Adigrat University",
+        "continent": "Africa",
+        "established_year": 2011,
+        "student_population": 12000,
+        "programs_offered": [
+            "Engineering",
+            "Medicine",
+            "Business",
+            "Education",
+            "Agriculture"
+        ],
+        "contact_info": {
+            "address": "Adigrat, Ethiopia",
+            "phone": "+251 34 445 0000",
+            "email": "info@adigratuniversity.edu.et"
+        },
+        "latitude": 14.2774,
+        "longitude": 39.4683
+    },
+    {
+        "country": "Ethiopia",
+        "alpha_two_code": "ET",
+        "domains": [
+            "astu.edu.et"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.astu.edu.et"
+        ],
+        "name": "Adama Science and Technology University",
+        "continent": "Africa",
+        "established_year": 1993,
+        "student_population": 25000,
+        "programs_offered": [
+            "Engineering",
+            "Science",
+            "Technology",
+            "Business",
+            "Information Technology"
+        ],
+        "contact_info": {
+            "address": "Adama, Ethiopia",
+            "phone": "+251 22 111 9600",
+            "email": "info@astu.edu.et"
+        },
+        "latitude": 8.5461,
+        "longitude": 39.2688
+    }
+]

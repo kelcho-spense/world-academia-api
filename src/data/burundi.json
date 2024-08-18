@@ -1,0 +1,176 @@
+[
+    {
+        "country": "Burundi",
+        "alpha_two_code": "BI",
+        "domains": [
+            "ub.edu.bi"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.ub.edu.bi"
+        ],
+        "name": "University of Burundi",
+        "continent": "Africa",
+        "established_year": 1964,
+        "student_population": 13000,
+        "programs_offered": [
+            "Law",
+            "Medicine",
+            "Engineering",
+            "Agriculture",
+            "Education"
+        ],
+        "contact_info": {
+            "address": "Bujumbura, Burundi",
+            "phone": "+257 22 223 005",
+            "email": "info@ub.edu.bi"
+        },
+        "latitude": -3.3896,
+        "longitude": 29.9256
+    },
+    {
+        "country": "Burundi",
+        "alpha_two_code": "BI",
+        "domains": [
+            "ult-burundi.com"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.ult-burundi.com"
+        ],
+        "name": "Université Lumière de Bujumbura",
+        "continent": "Africa",
+        "established_year": 2000,
+        "student_population": 4000,
+        "programs_offered": [
+            "Business Administration",
+            "Law",
+            "Information Technology",
+            "Economics",
+            "Social Sciences"
+        ],
+        "contact_info": {
+            "address": "Bujumbura, Burundi",
+            "phone": "+257 22 223 321",
+            "email": "info@ult-burundi.com"
+        },
+        "latitude": -3.3762,
+        "longitude": 29.3610
+    },
+    {
+        "country": "Burundi",
+        "alpha_two_code": "BI",
+        "domains": [
+            "uob.bi"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.uob.bi"
+        ],
+        "name": "Université du Burundi",
+        "continent": "Africa",
+        "established_year": 1964,
+        "student_population": 12000,
+        "programs_offered": [
+            "Medicine",
+            "Agriculture",
+            "Law",
+            "Economics",
+            "Engineering"
+        ],
+        "contact_info": {
+            "address": "Bujumbura, Burundi",
+            "phone": "+257 22 222 222",
+            "email": "info@uob.bi"
+        },
+        "latitude": -3.3833,
+        "longitude": 29.3602
+    },
+    {
+        "country": "Burundi",
+        "alpha_two_code": "BI",
+        "domains": [
+            "hopeuniversity.bi"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.hopeuniversity.bi"
+        ],
+        "name": "Hope Africa University",
+        "continent": "Africa",
+        "established_year": 2000,
+        "student_population": 6000,
+        "programs_offered": [
+            "Health Sciences",
+            "Theology",
+            "Business Administration",
+            "Information Technology",
+            "Education"
+        ],
+        "contact_info": {
+            "address": "Bujumbura, Burundi",
+            "phone": "+257 22 223 312",
+            "email": "info@hopeuniversity.bi"
+        },
+        "latitude": -3.3745,
+        "longitude": 29.3574
+    },
+    {
+        "country": "Burundi",
+        "alpha_two_code": "BI",
+        "domains": [
+            "umuco.ac.bi"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.umuco.ac.bi"
+        ],
+        "name": "Université de Mwaro",
+        "continent": "Africa",
+        "established_year": 2010,
+        "student_population": 2500,
+        "programs_offered": [
+            "Agriculture",
+            "Business Administration",
+            "Law",
+            "Education",
+            "Social Sciences"
+        ],
+        "contact_info": {
+            "address": "Mwaro, Burundi",
+            "phone": "+257 22 223 323",
+            "email": "info@umuco.ac.bi"
+        },
+        "latitude": -3.5074,
+        "longitude": 29.6344
+    },
+    {
+        "country": "Burundi",
+        "alpha_two_code": "BI",
+        "domains": [
+            "umub.bi"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.umub.bi"
+        ],
+        "name": "Université des Grands Lacs",
+        "continent": "Africa",
+        "established_year": 1999,
+        "student_population": 2000,
+        "programs_offered": [
+            "Law",
+            "Business Administration",
+            "Education",
+            "Information Technology",
+            "Social Sciences"
+        ],
+        "contact_info": {
+            "address": "Bujumbura, Burundi",
+            "phone": "+257 22 223 334",
+            "email": "info@umub.bi"
+        },
+        "latitude": -3.3776,
+        "longitude": 29.3622
+    }
+]

@@ -1,0 +1,292 @@
+[
+    {
+        "country": "Kenya",
+        "alpha_two_code": "KE",
+        "domains": [
+            "uonbi.ac.ke"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.uonbi.ac.ke"
+        ],
+        "name": "University of Nairobi",
+        "continent": "Africa",
+        "established_year": 1970,
+        "student_population": 84000,
+        "programs_offered": [
+            "Engineering",
+            "Medicine",
+            "Law",
+            "Business",
+            "Education"
+        ],
+        "contact_info": {
+            "address": "University Way, Nairobi, Kenya",
+            "phone": "+254 20 3318262",
+            "email": "info@uonbi.ac.ke"
+        },
+        "latitude": -1.2802,
+        "longitude": 36.8172
+    },
+    {
+        "country": "Kenya",
+        "alpha_two_code": "KE",
+        "domains": [
+            "ku.ac.ke"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.ku.ac.ke"
+        ],
+        "name": "Kenyatta University",
+        "continent": "Africa",
+        "established_year": 1985,
+        "student_population": 70000,
+        "programs_offered": [
+            "Education",
+            "Health Sciences",
+            "Humanities",
+            "Economics",
+            "Engineering"
+        ],
+        "contact_info": {
+            "address": "Thika Road, Nairobi, Kenya",
+            "phone": "+254 20 8703000",
+            "email": "info@ku.ac.ke"
+        },
+        "latitude": -1.1771,
+        "longitude": 36.9297
+    },
+    {
+        "country": "Kenya",
+        "alpha_two_code": "KE",
+        "domains": [
+            "strathmore.edu"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.strathmore.edu"
+        ],
+        "name": "Strathmore University",
+        "continent": "Africa",
+        "established_year": 1961,
+        "student_population": 8000,
+        "programs_offered": [
+            "Business",
+            "Information Technology",
+            "Law",
+            "Accounting",
+            "Healthcare Management"
+        ],
+        "contact_info": {
+            "address": "Ole Sangale Road, Madaraka Estate, Nairobi, Kenya",
+            "phone": "+254 703 034000",
+            "email": "info@strathmore.edu"
+        },
+        "latitude": -1.3026,
+        "longitude": 36.8074
+    },
+    {
+        "country": "Kenya",
+        "alpha_two_code": "KE",
+        "domains": [
+            "egerton.ac.ke"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.egerton.ac.ke"
+        ],
+        "name": "Egerton University",
+        "continent": "Africa",
+        "established_year": 1939,
+        "student_population": 15000,
+        "programs_offered": [
+            "Agriculture",
+            "Natural Sciences",
+            "Engineering",
+            "Education",
+            "Business"
+        ],
+        "contact_info": {
+            "address": "Njoro, Nakuru, Kenya",
+            "phone": "+254 51 2217802",
+            "email": "info@egerton.ac.ke"
+        },
+        "latitude": -0.3634,
+        "longitude": 35.9434
+    },
+    {
+        "country": "Kenya",
+        "alpha_two_code": "KE",
+        "domains": [
+            "jkuat.ac.ke"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.jkuat.ac.ke"
+        ],
+        "name": "Jomo Kenyatta University of Agriculture and Technology",
+        "continent": "Africa",
+        "established_year": 1994,
+        "student_population": 35000,
+        "programs_offered": [
+            "Agriculture",
+            "Engineering",
+            "Technology",
+            "Business",
+            "Health Sciences"
+        ],
+        "contact_info": {
+            "address": "Juja, Kenya",
+            "phone": "+254 67 5870001",
+            "email": "info@jkuat.ac.ke"
+        },
+        "latitude": -1.0896,
+        "longitude": 37.0104
+    },
+    {
+        "country": "Kenya",
+        "alpha_two_code": "KE",
+        "domains": [
+            "kca.ac.ke"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.kca.ac.ke"
+        ],
+        "name": "KCA University",
+        "continent": "Africa",
+        "established_year": 1989,
+        "student_population": 12000,
+        "programs_offered": [
+            "Accounting",
+            "Business",
+            "Information Technology",
+            "Education",
+            "Social Sciences"
+        ],
+        "contact_info": {
+            "address": "Thika Road, Nairobi, Kenya",
+            "phone": "+254 20 8070408",
+            "email": "info@kca.ac.ke"
+        },
+        "latitude": -1.2242,
+        "longitude": 36.8894
+    },
+    {
+        "country": "Kenya",
+        "alpha_two_code": "KE",
+        "domains": [
+            "usiu.ac.ke"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.usiu.ac.ke"
+        ],
+        "name": "United States International University Africa",
+        "continent": "Africa",
+        "established_year": 1969,
+        "student_population": 7000,
+        "programs_offered": [
+            "International Relations",
+            "Business",
+            "Psychology",
+            "Journalism",
+            "Computer Science"
+        ],
+        "contact_info": {
+            "address": "Thome, Nairobi, Kenya",
+            "phone": "+254 730 116000",
+            "email": "info@usiu.ac.ke"
+        },
+        "latitude": -1.2234,
+        "longitude": 36.8839
+    },
+    {
+        "country": "Kenya",
+        "alpha_two_code": "KE",
+        "domains": [
+            "maseno.ac.ke"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.maseno.ac.ke"
+        ],
+        "name": "Maseno University",
+        "continent": "Africa",
+        "established_year": 1991,
+        "student_population": 20000,
+        "programs_offered": [
+            "Education",
+            "Business",
+            "Information Technology",
+            "Social Sciences",
+            "Natural Sciences"
+        ],
+        "contact_info": {
+            "address": "Maseno, Kenya",
+            "phone": "+254 57 351622",
+            "email": "info@maseno.ac.ke"
+        },
+        "latitude": -0.0058,
+        "longitude": 34.5997
+    },
+    {
+        "country": "Kenya",
+        "alpha_two_code": "KE",
+        "domains": [
+            "mku.ac.ke"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.mku.ac.ke"
+        ],
+        "name": "Mount Kenya University",
+        "continent": "Africa",
+        "established_year": 2008,
+        "student_population": 52000,
+        "programs_offered": [
+            "Medicine",
+            "Education",
+            "Business",
+            "Law",
+            "Engineering"
+        ],
+        "contact_info": {
+            "address": "Thika, Kenya",
+            "phone": "+254 709 153000",
+            "email": "info@mku.ac.ke"
+        },
+        "latitude": -1.0473,
+        "longitude": 37.0156
+    },
+    {
+        "country": "Kenya",
+        "alpha_two_code": "KE",
+        "domains": [
+            "tukenya.ac.ke"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.tukenya.ac.ke"
+        ],
+        "name": "Technical University of Kenya",
+        "continent": "Africa",
+        "established_year": 2013,
+        "student_population": 15000,
+        "programs_offered": [
+            "Engineering",
+            "Applied Sciences",
+            "Architecture",
+            "Business",
+            "Information Technology"
+        ],
+        "contact_info": {
+            "address": "Haile Selassie Avenue, Nairobi, Kenya",
+            "phone": "+254 20 343672",
+            "email": "info@tukenya.ac.ke"
+        },
+        "latitude": -1.2878,
+        "longitude": 36.8245
+    }
+]

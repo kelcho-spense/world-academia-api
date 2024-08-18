@@ -1,0 +1,234 @@
+[
+    {
+        "country": "Rwanda",
+        "alpha_two_code": "RW",
+        "domains": [
+            "ur.ac.rw"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.ur.ac.rw"
+        ],
+        "name": "University of Rwanda",
+        "continent": "Africa",
+        "established_year": 2013,
+        "student_population": 30000,
+        "programs_offered": [
+            "Medicine",
+            "Engineering",
+            "Agriculture",
+            "Business",
+            "Education"
+        ],
+        "contact_info": {
+            "address": "Kigali, Rwanda",
+            "phone": "+250 788 442 378",
+            "email": "info@ur.ac.rw"
+        },
+        "latitude": -1.9441,
+        "longitude": 30.0619
+    },
+    {
+        "country": "Rwanda",
+        "alpha_two_code": "RW",
+        "domains": [
+            "auk.ac.rw"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.auk.ac.rw"
+        ],
+        "name": "Adventist University of Central Africa",
+        "continent": "Africa",
+        "established_year": 1978,
+        "student_population": 6000,
+        "programs_offered": [
+            "Business Administration",
+            "Education",
+            "Information Technology",
+            "Theology",
+            "Health Sciences"
+        ],
+        "contact_info": {
+            "address": "Kigali, Rwanda",
+            "phone": "+250 788 305 222",
+            "email": "info@auk.ac.rw"
+        },
+        "latitude": -1.9677,
+        "longitude": 30.1044
+    },
+    {
+        "country": "Rwanda",
+        "alpha_two_code": "RW",
+        "domains": [
+            "ulk.ac.rw"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.ulk.ac.rw"
+        ],
+        "name": "Kigali Independent University (ULK)",
+        "continent": "Africa",
+        "established_year": 1996,
+        "student_population": 8000,
+        "programs_offered": [
+            "Law",
+            "Economics",
+            "Social Sciences",
+            "Business Administration",
+            "Information Technology"
+        ],
+        "contact_info": {
+            "address": "Kigali, Rwanda",
+            "phone": "+250 788 303 386",
+            "email": "info@ulk.ac.rw"
+        },
+        "latitude": -1.9431,
+        "longitude": 30.0591
+    },
+    {
+        "country": "Rwanda",
+        "alpha_two_code": "RW",
+        "domains": [
+            "ipu.ac.rw"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.ipu.ac.rw"
+        ],
+        "name": "Institut Polytechnique de Byumba (IPB)",
+        "continent": "Africa",
+        "established_year": 2006,
+        "student_population": 4000,
+        "programs_offered": [
+            "Education",
+            "Agriculture",
+            "Business Administration",
+            "Computer Science",
+            "Social Work"
+        ],
+        "contact_info": {
+            "address": "Byumba, Rwanda",
+            "phone": "+250 788 444 444",
+            "email": "info@ipu.ac.rw"
+        },
+        "latitude": -1.5736,
+        "longitude": 30.0672
+    },
+    {
+        "country": "Rwanda",
+        "alpha_two_code": "RW",
+        "domains": [
+            "ur.ac.rw"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.ur.ac.rw"
+        ],
+        "name": "University of Rwanda - College of Science and Technology",
+        "continent": "Africa",
+        "established_year": 2013,
+        "student_population": 7000,
+        "programs_offered": [
+            "Engineering",
+            "Applied Sciences",
+            "Architecture",
+            "Information Technology",
+            "Environmental Science"
+        ],
+        "contact_info": {
+            "address": "Kigali, Rwanda",
+            "phone": "+250 788 849 390",
+            "email": "cst@ur.ac.rw"
+        },
+        "latitude": -1.9451,
+        "longitude": 30.0587
+    },
+    {
+        "country": "Rwanda",
+        "alpha_two_code": "RW",
+        "domains": [
+            "kicd.ac.rw"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.kicd.ac.rw"
+        ],
+        "name": "Kigali Institute of Science and Technology",
+        "continent": "Africa",
+        "established_year": 1997,
+        "student_population": 5000,
+        "programs_offered": [
+            "Engineering",
+            "Information Technology",
+            "Architecture",
+            "Business",
+            "Science and Technology"
+        ],
+        "contact_info": {
+            "address": "Kigali, Rwanda",
+            "phone": "+250 788 544 600",
+            "email": "info@kicd.ac.rw"
+        },
+        "latitude": -1.9436,
+        "longitude": 30.0572
+    },
+    {
+        "country": "Rwanda",
+        "alpha_two_code": "RW",
+        "domains": [
+            "cmurwanda.ac.rw"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.cmurwanda.ac.rw"
+        ],
+        "name": "Catholic University of Rwanda",
+        "continent": "Africa",
+        "established_year": 2010,
+        "student_population": 3000,
+        "programs_offered": [
+            "Health Sciences",
+            "Business Administration",
+            "Education",
+            "Social Sciences",
+            "Theology"
+        ],
+        "contact_info": {
+            "address": "Butare, Rwanda",
+            "phone": "+250 788 305 000",
+            "email": "info@cmurwanda.ac.rw"
+        },
+        "latitude": -2.5917,
+        "longitude": 29.7368
+    },
+    {
+        "country": "Rwanda",
+        "alpha_two_code": "RW",
+        "domains": [
+            "kivu.ac.rw"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.kivu.ac.rw"
+        ],
+        "name": "Université Libre de Kigali",
+        "continent": "Africa",
+        "established_year": 1998,
+        "student_population": 4500,
+        "programs_offered": [
+            "Law",
+            "Business",
+            "Social Sciences",
+            "Economics",
+            "Education"
+        ],
+        "contact_info": {
+            "address": "Kigali, Rwanda",
+            "phone": "+250 788 303 330",
+            "email": "info@kivu.ac.rw"
+        },
+        "latitude": -1.9576,
+        "longitude": 30.0599
+    }
+]

@@ -1,0 +1,176 @@
+[
+    {
+        "country": "South Sudan",
+        "alpha_two_code": "SS",
+        "domains": [
+            "ust.edu.sd"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.ust.edu.sd"
+        ],
+        "name": "University of Juba",
+        "continent": "Africa",
+        "established_year": 1975,
+        "student_population": 20000,
+        "programs_offered": [
+            "Medicine",
+            "Engineering",
+            "Business Administration",
+            "Law",
+            "Education"
+        ],
+        "contact_info": {
+            "address": "Juba, South Sudan",
+            "phone": "+211 955 123 456",
+            "email": "info@ust.edu.sd"
+        },
+        "latitude": 4.8594,
+        "longitude": 31.5713
+    },
+    {
+        "country": "South Sudan",
+        "alpha_two_code": "SS",
+        "domains": [
+            "universityofrumbek.net"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.universityofrumbek.net"
+        ],
+        "name": "Rumbek University of Science and Technology",
+        "continent": "Africa",
+        "established_year": 2010,
+        "student_population": 3000,
+        "programs_offered": [
+            "Agriculture",
+            "Engineering",
+            "Business",
+            "Education",
+            "Social Sciences"
+        ],
+        "contact_info": {
+            "address": "Rumbek, South Sudan",
+            "phone": "+211 955 223 345",
+            "email": "info@universityofrumbek.net"
+        },
+        "latitude": 6.8064,
+        "longitude": 29.6769
+    },
+    {
+        "country": "South Sudan",
+        "alpha_two_code": "SS",
+        "domains": [
+            "ust.edu.sd"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.ust.edu.sd"
+        ],
+        "name": "Upper Nile University",
+        "continent": "Africa",
+        "established_year": 1991,
+        "student_population": 12000,
+        "programs_offered": [
+            "Health Sciences",
+            "Natural Resources",
+            "Agriculture",
+            "Education",
+            "Engineering"
+        ],
+        "contact_info": {
+            "address": "Malakal, South Sudan",
+            "phone": "+211 955 123 567",
+            "email": "info@ust.edu.sd"
+        },
+        "latitude": 9.5334,
+        "longitude": 31.6605
+    },
+    {
+        "country": "South Sudan",
+        "alpha_two_code": "SS",
+        "domains": [
+            "ust.edu.sd"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.ust.edu.sd"
+        ],
+        "name": "University of Bahr El-Ghazal",
+        "continent": "Africa",
+        "established_year": 1991,
+        "student_population": 8000,
+        "programs_offered": [
+            "Medicine",
+            "Agriculture",
+            "Business Administration",
+            "Education",
+            "Social Sciences"
+        ],
+        "contact_info": {
+            "address": "Wau, South Sudan",
+            "phone": "+211 955 345 678",
+            "email": "info@ust.edu.sd"
+        },
+        "latitude": 7.7027,
+        "longitude": 28.0007
+    },
+    {
+        "country": "South Sudan",
+        "alpha_two_code": "SS",
+        "domains": [
+            "ust.edu.sd"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.ust.edu.sd"
+        ],
+        "name": "Dr. John Garang Memorial University of Science and Technology",
+        "continent": "Africa",
+        "established_year": 2008,
+        "student_population": 5000,
+        "programs_offered": [
+            "Science and Technology",
+            "Business Administration",
+            "Education",
+            "Agriculture",
+            "Social Sciences"
+        ],
+        "contact_info": {
+            "address": "Bor, South Sudan",
+            "phone": "+211 955 456 789",
+            "email": "info@ust.edu.sd"
+        },
+        "latitude": 6.2155,
+        "longitude": 31.5589
+    },
+    {
+        "country": "South Sudan",
+        "alpha_two_code": "SS",
+        "domains": [
+            "catholicuniversitysouthsudan.org"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.catholicuniversitysouthsudan.org"
+        ],
+        "name": "Catholic University of South Sudan",
+        "continent": "Africa",
+        "established_year": 2008,
+        "student_population": 1500,
+        "programs_offered": [
+            "Theology",
+            "Education",
+            "Business Administration",
+            "Social Sciences",
+            "Agriculture"
+        ],
+        "contact_info": {
+            "address": "Juba, South Sudan",
+            "phone": "+211 955 234 567",
+            "email": "info@catholicuniversitysouthsudan.org"
+        },
+        "latitude": 4.8594,
+        "longitude": 31.5713
+    }
+]

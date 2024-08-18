@@ -93,7 +93,7 @@ export const approveUser = async (req: Request, res: Response) => {
         user.approvedBy = req.user._id as mongoose.Schema.Types.ObjectId;
 
         await user.save();
-        res.json({ message: "User approved successfully", user. });
+        res.json({ message: "User approved successfully", user: user._id });
     } catch (err) {
         res.status(500).json({ message: "Server error" });
     }

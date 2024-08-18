@@ -1,0 +1,118 @@
+[
+    {
+        "country": "Djibouti",
+        "alpha_two_code": "DJ",
+        "domains": [
+            "univ.edu.dj"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "http://www.univ.edu.dj"
+        ],
+        "name": "University of Djibouti",
+        "continent": "Africa",
+        "established_year": 2006,
+        "student_population": 5000,
+        "programs_offered": [
+            "Business Administration",
+            "Computer Science",
+            "Engineering",
+            "Health Sciences",
+            "Law"
+        ],
+        "contact_info": {
+            "address": "Djibouti City, Djibouti",
+            "phone": "+253 21 35 20 00",
+            "email": "info@univ.edu.dj"
+        },
+        "latitude": 11.589,
+        "longitude": 43.145
+    },
+    {
+        "country": "Djibouti",
+        "alpha_two_code": "DJ",
+        "domains": [
+            "institut-djibouti.edu.dj"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "http://www.institut-djibouti.edu.dj"
+        ],
+        "name": "Djibouti Institute of Health Sciences",
+        "continent": "Africa",
+        "established_year": 1986,
+        "student_population": 1200,
+        "programs_offered": [
+            "Nursing",
+            "Public Health",
+            "Midwifery",
+            "Pharmacy",
+            "Medical Laboratory Science"
+        ],
+        "contact_info": {
+            "address": "Djibouti City, Djibouti",
+            "phone": "+253 21 35 20 01",
+            "email": "info@institut-djibouti.edu.dj"
+        },
+        "latitude": 11.574,
+        "longitude": 43.155
+    },
+    {
+        "country": "Djibouti",
+        "alpha_two_code": "DJ",
+        "domains": [
+            "cfp-djibouti.edu.dj"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "http://www.cfp-djibouti.edu.dj"
+        ],
+        "name": "Centre de Formation Professionnelle de Djibouti",
+        "continent": "Africa",
+        "established_year": 1992,
+        "student_population": 1500,
+        "programs_offered": [
+            "Vocational Training",
+            "Technical Education",
+            "Business Administration",
+            "Information Technology",
+            "Engineering"
+        ],
+        "contact_info": {
+            "address": "Djibouti City, Djibouti",
+            "phone": "+253 21 35 20 02",
+            "email": "info@cfp-djibouti.edu.dj"
+        },
+        "latitude": 11.582,
+        "longitude": 43.147
+    },
+    {
+        "country": "Djibouti",
+        "alpha_two_code": "DJ",
+        "domains": [
+            "eud.edu.dj"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "http://www.eud.edu.dj"
+        ],
+        "name": "École Universitaire de Djibouti",
+        "continent": "Africa",
+        "established_year": 2010,
+        "student_population": 2500,
+        "programs_offered": [
+            "Humanities",
+            "Business Administration",
+            "Social Sciences",
+            "Education",
+            "Law"
+        ],
+        "contact_info": {
+            "address": "Djibouti City, Djibouti",
+            "phone": "+253 21 35 20 03",
+            "email": "info@eud.edu.dj"
+        },
+        "latitude": 11.576,
+        "longitude": 43.149
+    }
+]

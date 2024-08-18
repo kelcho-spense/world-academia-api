@@ -1,39 +1,83 @@
+
+
 ###
-# Get all Todos
-GET http://localhost:8000/api/todos
+# ingest one file
+GET http://localhost:8000/api/ingest?file=burundi
 Accept: application/json
 
 ###
-# Get a Todo by ID
-GET http://localhost:8000/api/todos/63bf99ef0f470d3923c7ca6f
+# ingest all files
+GET http://localhost:8000/api/ingest/all
+Accept: application/json
+
+
+###
+# Get all Universities
+GET http://localhost:8000/api/universities
 Accept: application/json
 
 ###
-# Create a new Todo
-POST http://localhost:8000/api/todos
+# Get all Universities with filters
+GET http://localhost:8000/api/universities?country=burundi
+Accept: application/json
+
+###
+# Get a University by ID
+GET http://localhost:8000/api/universities/63bf99ef0f470d3923c7ca6f
+Accept: application/json
+
+###
+# Create a new University
+POST http://localhost:8000/api/universities
 Content-Type: application/json
 Accept: application/json
 
 {
-  "title": "Buy Groceries",
-  "description": "Milk, Bread, Eggs"
+  "country": "United Kingdom",
+  "alpha_two_code": "GB",
+  "domains": [
+    "myport.ac.uk",
+    "myport.port.ac.uk"
+  ],
+  "state_province": null,
+  "web_pages": [
+    "https://myport.port.ac.uk"
+  ],
+  "name": "University of Portsmouth",
+  "continent": "Europe",
+  "established_year": 1992,
+  "student_population": 25000,
+  "programs_offered": [
+    "Computer Science",
+    "Business Administration",
+    "Mechanical Engineering"
+  ],
+  "contact_info": {
+    "address": "Winston Churchill Avenue, Portsmouth, PO1 2UP, UK",
+    "phone": "+44 23 9284 8484",
+    "email": "info@port.ac.uk"
+  },
+  "latitude": 50.7984,
+  "longitude": -1.0974
 }
 
 ###
-# Update a Todo
-PUT http://localhost:8000/api/todos/66bf99ef0f470d3923c7ca7f
+# Update a University
+PUT http://localhost:8000/api/universities/66bf99ef0f470d3923c7ca7f
 Content-Type: application/json
 Accept: application/json
 
 {
-  "title": "Buy Groceries and Cleaning Supplies",
-  "description": "Milk, Bread, Eggs, and Detergent",
-  "completed": false
+  "student_population": 26000,
+  "ranking": {
+    "world": 450,
+    "national": 25
+  }
 }
 
 ###
-# Delete a Todo
-DELETE http://localhost:8000/api/todos/66c10d8fa7d8a9d2ba0973f7
+# Delete a University
+DELETE http://localhost:8000/api/universities/66c10d8fa7d8a9d2ba0973f7
 Accept: application/json
 
 ###

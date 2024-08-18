@@ -1,0 +1,292 @@
+[
+    {
+        "country": "Sudan",
+        "alpha_two_code": "SD",
+        "domains": [
+            "uofk.edu"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.uofk.edu"
+        ],
+        "name": "University of Khartoum",
+        "continent": "Africa",
+        "established_year": 1902,
+        "student_population": 16000,
+        "programs_offered": [
+            "Engineering",
+            "Medicine",
+            "Law",
+            "Business Administration",
+            "Agriculture"
+        ],
+        "contact_info": {
+            "address": "Khartoum, Sudan",
+            "phone": "+249 183 777616",
+            "email": "info@uofk.edu"
+        },
+        "latitude": 15.6081,
+        "longitude": 32.5342
+    },
+    {
+        "country": "Sudan",
+        "alpha_two_code": "SD",
+        "domains": [
+            "sustech.edu"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.sustech.edu"
+        ],
+        "name": "Sudan University of Science and Technology",
+        "continent": "Africa",
+        "established_year": 1902,
+        "student_population": 45000,
+        "programs_offered": [
+            "Engineering",
+            "Computer Science",
+            "Business Administration",
+            "Education",
+            "Medical Laboratory Sciences"
+        ],
+        "contact_info": {
+            "address": "Khartoum, Sudan",
+            "phone": "+249 183 780896",
+            "email": "info@sustech.edu"
+        },
+        "latitude": 15.6400,
+        "longitude": 32.5213
+    },
+    {
+        "country": "Sudan",
+        "alpha_two_code": "SD",
+        "domains": [
+            "uofg.edu.sd"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.uofg.edu.sd"
+        ],
+        "name": "University of Gezira",
+        "continent": "Africa",
+        "established_year": 1975,
+        "student_population": 24000,
+        "programs_offered": [
+            "Medicine",
+            "Agriculture",
+            "Engineering",
+            "Business Administration",
+            "Education"
+        ],
+        "contact_info": {
+            "address": "Wad Medani, Sudan",
+            "phone": "+249 511 842005",
+            "email": "info@uofg.edu.sd"
+        },
+        "latitude": 14.4012,
+        "longitude": 33.5199
+    },
+    {
+        "country": "Sudan",
+        "alpha_two_code": "SD",
+        "domains": [
+            "neelain.edu.sd"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.neelain.edu.sd"
+        ],
+        "name": "Al-Neelain University",
+        "continent": "Africa",
+        "established_year": 1993,
+        "student_population": 20000,
+        "programs_offered": [
+            "Law",
+            "Medicine",
+            "Engineering",
+            "Business Administration",
+            "Education"
+        ],
+        "contact_info": {
+            "address": "Khartoum, Sudan",
+            "phone": "+249 183 774719",
+            "email": "info@neelain.edu.sd"
+        },
+        "latitude": 15.6008,
+        "longitude": 32.5322
+    },
+    {
+        "country": "Sudan",
+        "alpha_two_code": "SD",
+        "domains": [
+            "ahfad.edu.sd"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.ahfad.edu.sd"
+        ],
+        "name": "Ahfad University for Women",
+        "continent": "Africa",
+        "established_year": 1966,
+        "student_population": 7000,
+        "programs_offered": [
+            "Health Sciences",
+            "Psychology",
+            "Business Administration",
+            "Rural Development",
+            "Education"
+        ],
+        "contact_info": {
+            "address": "Omdurman, Sudan",
+            "phone": "+249 155 160000",
+            "email": "info@ahfad.edu.sd"
+        },
+        "latitude": 15.6580,
+        "longitude": 32.4827
+    },
+    {
+        "country": "Sudan",
+        "alpha_two_code": "SD",
+        "domains": [
+            "bakhtalruda.edu.sd"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.bakhtalruda.edu.sd"
+        ],
+        "name": "Bakht Al-Ruda University",
+        "continent": "Africa",
+        "established_year": 1997,
+        "student_population": 10000,
+        "programs_offered": [
+            "Education",
+            "Agriculture",
+            "Business Administration",
+            "Social Sciences",
+            "Islamic Studies"
+        ],
+        "contact_info": {
+            "address": "Ed Dueim, Sudan",
+            "phone": "+249 577 820000",
+            "email": "info@bakhtalruda.edu.sd"
+        },
+        "latitude": 14.0031,
+        "longitude": 32.3135
+    },
+    {
+        "country": "Sudan",
+        "alpha_two_code": "SD",
+        "domains": [
+            "uofk.edu"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.uofk.edu"
+        ],
+        "name": "University of El Imam El Mahdi",
+        "continent": "Africa",
+        "established_year": 1994,
+        "student_population": 8000,
+        "programs_offered": [
+            "Business Administration",
+            "Education",
+            "Engineering",
+            "Medicine",
+            "Social Sciences"
+        ],
+        "contact_info": {
+            "address": "Kosti, Sudan",
+            "phone": "+249 577 620000",
+            "email": "info@uofk.edu"
+        },
+        "latitude": 13.1629,
+        "longitude": 32.6632
+    },
+    {
+        "country": "Sudan",
+        "alpha_two_code": "SD",
+        "domains": [
+            "ust.edu.sd"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.ust.edu.sd"
+        ],
+        "name": "University of Science and Technology, Omdurman",
+        "continent": "Africa",
+        "established_year": 1995,
+        "student_population": 12000,
+        "programs_offered": [
+            "Computer Science",
+            "Business Administration",
+            "Engineering",
+            "Health Sciences",
+            "Education"
+        ],
+        "contact_info": {
+            "address": "Omdurman, Sudan",
+            "phone": "+249 187 560650",
+            "email": "info@ust.edu.sd"
+        },
+        "latitude": 15.6489,
+        "longitude": 32.4772
+    },
+    {
+        "country": "Sudan",
+        "alpha_two_code": "SD",
+        "domains": [
+            "sinnaruniv.edu.sd"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.sinnaruniv.edu.sd"
+        ],
+        "name": "Sinnar University",
+        "continent": "Africa",
+        "established_year": 1977,
+        "student_population": 14000,
+        "programs_offered": [
+            "Agriculture",
+            "Engineering",
+            "Medicine",
+            "Business Administration",
+            "Education"
+        ],
+        "contact_info": {
+            "address": "Sennar, Sudan",
+            "phone": "+249 157 200200",
+            "email": "info@sinnaruniv.edu.sd"
+        },
+        "latitude": 13.5668,
+        "longitude": 33.5671
+    },
+    {
+        "country": "Sudan",
+        "alpha_two_code": "SD",
+        "domains": [
+            "sust.edu.sd"
+        ],
+        "state_province": null,
+        "web_pages": [
+            "https://www.sust.edu.sd"
+        ],
+        "name": "Sudan University of Science and Technology",
+        "continent": "Africa",
+        "established_year": 1932,
+        "student_population": 43000,
+        "programs_offered": [
+            "Engineering",
+            "Computer Science",
+            "Business Administration",
+            "Education",
+            "Medical Laboratory Sciences"
+        ],
+        "contact_info": {
+            "address": "Khartoum, Sudan",
+            "phone": "+249 183 760000",
+            "email": "info@sust.edu.sd"
+        },
+        "latitude": 15.6030,
+        "longitude": 32.5000
+    }
+]

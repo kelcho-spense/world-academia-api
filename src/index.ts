@@ -1,14 +1,15 @@
-// src/index.ts
 import express, { Application, Request, Response } from 'express';
 import responseTime from 'response-time';
 import config from './config/config';
+import limiter from './middleware/rate-limiter'
+
 import logger from './utils/logger';
 import { startMetricsServer, restResponseTimeHistogram } from './utils/metrics';
 import connectMongo from './utils/db-connect';
-import limiter from './middleware/rate-limiter'
 
-import todoRoutes from './routes/todo.routes';
 import userRouter from './routes/user.routes';
+import universityRouter from './routes/university.routes'
+import ingestRouter from './routes/ingest-data.routes'
 
 const app: Application = express();
 
@@ -32,8 +33,9 @@ app.use(responseTime(
 );
 
 // Routes
-app.use('/api', todoRoutes);
 app.use('/api/auth', userRouter);
+app.use('/api', universityRouter);
+app.use('/api', ingestRouter)
 
 app.get('/', (req, res) => {
     res.status(200).json({ message: "API healthy" })
