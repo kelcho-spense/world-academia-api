@@ -39,13 +39,6 @@ app.use('/api', userRouter);
 app.use('/api', universityRouter);
 app.use('/api', ingestRouter)
 
-// app.get('/', (req, res) => {
-//     const fullUrl = `${req.protocol}://${req.get('host')}${req.originalUrl}`;
-//     // res.send(`Full URL is: ${fullUrl}`);
-
-//     res.status(200).json({ message: "API healthy", fullUrl })
-// })
-
 app.get('/', (req, res) => {
     const fullUrl = `${req.protocol}://${req.get('host')}${req.originalUrl}`;
     res.send(`
