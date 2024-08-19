@@ -2,6 +2,7 @@ import express, { Request, Response, Express } from 'express';
 import responseTime from 'response-time';
 import config from './config/config';
 import limiter from './middleware/rate-limiter'
+import dotenv from 'dotenv/config';
 
 import logger from './utils/logger';
 import { startMetricsServer, restResponseTimeHistogram } from './utils/metrics';
@@ -45,8 +46,16 @@ app.get('/', (req, res) => {
 
 // Start the server
 app.listen(config.port, () => {
-    startMetricsServer()
+    startMetricsServer(app)
     connectMongo()
     swaggerDocs(app, config.port)
-    logger.info(`Server running on port ${config.port}`);
+    if (process.env.NODE_ENV == "development") {
+        logger.info(`Server running on http://localhost:${config.port}`); 
+        logger.info(`Docs available at http://localhost:${config.port}/docs`);   
+        logger.info("Metrics server started at http://localhost:${config.port}/metrics");       
+    } else {
+        logger.info(`Server running on port :${config.port}`);  
+        logger.info(`Docs available at /docs`);   
+        logger.info("Metrics server started at /metrics");     
+    }
 });

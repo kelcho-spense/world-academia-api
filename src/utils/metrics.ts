@@ -1,6 +1,8 @@
 import express from "express";
 import client from "prom-client";
 import logger from "./logger";
+import config from '../config/config';
+import { Express } from "express";
 
 const app = express();
 
@@ -16,18 +18,14 @@ export const databaseResponseTimeHistogram = new client.Histogram({
   labelNames: ["operation", "success"],
 });
 
-export function startMetricsServer() {
+export function startMetricsServer(app:Express) {
   const collectDefaultMetrics = client.collectDefaultMetrics;
-
+ 
   collectDefaultMetrics();
 
   app.get("/metrics", async (req, res) => {
     res.set("Content-Type", client.register.contentType);
 
     return res.send(await client.register.metrics());
-  });
-
-  app.listen(9100, () => {
-    logger.info("Metrics server started at http://localhost:9100/metrics");
   });
 }
