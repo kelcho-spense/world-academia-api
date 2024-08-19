@@ -1,4 +1,4 @@
-import express, { Application, Request, Response } from 'express';
+import express, { Request, Response, Express } from 'express';
 import responseTime from 'response-time';
 import config from './config/config';
 import limiter from './middleware/rate-limiter'
@@ -10,8 +10,9 @@ import connectMongo from './utils/db-connect';
 import userRouter from './routes/user.routes';
 import universityRouter from './routes/university.routes'
 import ingestRouter from './routes/ingest-data.routes'
+import swaggerDocs from "./utils/swagger";
 
-const app: Application = express();
+const app: Express = express();
 
 // Middleware
 app.use(express.json());
@@ -33,7 +34,7 @@ app.use(responseTime(
 );
 
 // Routes
-app.use('/api/auth', userRouter);
+app.use('/api', userRouter);
 app.use('/api', universityRouter);
 app.use('/api', ingestRouter)
 
@@ -46,5 +47,6 @@ app.get('/', (req, res) => {
 app.listen(config.port, () => {
     startMetricsServer()
     connectMongo()
+    swaggerDocs(app, config.port)
     logger.info(`Server running on port ${config.port}`);
 });

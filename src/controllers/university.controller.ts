@@ -2,32 +2,6 @@ import { Request, Response } from 'express';
 import University, { IUniversity } from '../models/university.model';
 import { databaseResponseTimeHistogram } from "../utils/metrics";
 
-// Get all universities with query and filter options
-// export const getUniversities = async (req: Request, res: Response): Promise<void> => {
-//   const metricsLabels = {
-//     operation: "getUniversities",
-//   };
-//   const timer = databaseResponseTimeHistogram.startTimer();
-
-//   const { country, continent, name, established_year, program } = req.query;
-//   const filters: any = {};
-
-//   // Build query filters based on request parameters
-//   if (country) filters.country = country;
-//   if (continent) filters.continent = continent;
-//   if (name) filters.name = new RegExp(name as string, 'i'); // Case-insensitive name search
-//   if (established_year) filters.established_year = established_year;
-//   if (program) filters.programs_offered = program;
-
-//   try {
-//     const universities = await University.find(filters);
-//     timer({ ...metricsLabels, success: "true" });
-//     res.status(200).json(universities);
-//   } catch (error:any) {
-//     timer({ ...metricsLabels, success: "false" });
-//     res.status(500).json({ error: error.message });
-//   }
-// };
 
 export const getUniversities = async (req: Request, res: Response): Promise<void> => {
   const metricsLabels = {

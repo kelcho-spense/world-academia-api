@@ -2,14 +2,13 @@
 
 ###
 # ingest one file
-GET http://localhost:8000/api/ingest?file=burundi
+GET http://localhost:8000/api/ingest?file=uganda
 Accept: application/json
 
 ###
 # ingest all files
 GET http://localhost:8000/api/ingest/all
 Accept: application/json
-
 
 ###
 # Get all Universities
@@ -29,6 +28,7 @@ Accept: application/json
 ###
 # Create a new University
 POST http://localhost:8000/api/universities
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YzJlZjJmNjAzYjRjNDE1MDk0MzEyYyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcyNDA1MTI1NCwiZXhwIjoxNzI0MDU0ODU0fQ.d8R4oRCmmrvTBHqC2olom6mseR0Ce-B-enNYjMBl2dI
 Content-Type: application/json
 Accept: application/json
 
@@ -99,8 +99,8 @@ Content-Type: application/json
 Accept: application/json
 
 {
-  "email": "updatedadmin@example.com",
-  "password": "updateadmin_password"
+  "email": "admin@example.com",
+  "password": "admin_password"
 }
 
 ###

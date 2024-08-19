@@ -3,30 +3,35 @@ import jwt from "jsonwebtoken";
 import { Request, Response } from "express";
 import User from "../models/user.model";
 import mongoose from "mongoose";
+import { UpdateUserInput, CreateUserInput, LoginUserInput } from '../schema/user.schema'
 
 const JWT_SECRET = process.env.JWT_SECRET as string
 
 // Login function for users and admins
 export const loginUser = async (req: Request, res: Response) => {
-    const { email, password } = req.body;
+    const loginUsersInput: LoginUserInput = req.body;
 
     try {
         // Find the user by email
-        const user = await User.findOne({ email });
+        const user = await User.findOne({ email: loginUsersInput.email });
         if (!user) {
             return res.status(400).json({ message: "Invalid credentials" });
         }
 
+        if (!user.isApproved) {
+            return res.status(403).json({ message: "User not approved" });
+        }
+
         // Check if the password is correct
-        const isMatch = await bcrypt.compare(password, user.password);
+        const isMatch = await bcrypt.compare(loginUsersInput.password, user.password);
         if (!isMatch) {
             return res.status(400).json({ message: "Invalid credentials" });
         }
 
-        // Check if the user is approved
-        if (!user.isApproved && user.role !== "admin") {
-            return res.status(403).json({ message: "User not approved" });
-        }
+        // // Check if the user is approved
+        // if (!user.isApproved && user.role !== "admin") {
+        //     return res.status(403).json({ message: "User not approved" });
+        // }
 
         // Generate JWT token
         const token = jwt.sign(
@@ -35,9 +40,15 @@ export const loginUser = async (req: Request, res: Response) => {
             { expiresIn: "1h" }
         );
 
+        const userDetails = {
+            userId : user._id,
+            email: user.email,
+            role: user.role,
+        }
+
         const Bearer = `Bearer ${token}`;
 
-        res.json({ Bearer });
+        res.json({ Bearer, user: userDetails });
     } catch (err) {
         res.status(500).json({ message: "Server error" });
     }
@@ -45,21 +56,21 @@ export const loginUser = async (req: Request, res: Response) => {
 
 // Register a new user
 export const registerUser = async (req: Request, res: Response) => {
-    const { email, password, role } = req.body;
+    const regUser: CreateUserInput = req.body
 
     try {
-        const existingUser = await User.findOne({ email });
+        const existingUser = await User.findOne({ email: regUser.email });
         if (existingUser) {
             return res.status(400).json({ message: "User already exists" });
         }
         // Determine if the user should be approved automatically
-        const isApproved = role === "user";
+        const isApproved = regUser.role === "user";
 
         // Create a new user instance
         const newUser = new User({
-            email,
-            password,
-            role,
+            email: regUser.email,
+            password: regUser.password,
+            role: regUser.role,
             isApproved
         });
 
@@ -73,8 +84,14 @@ export const registerUser = async (req: Request, res: Response) => {
 // Admin approves a user
 export const approveUser = async (req: Request, res: Response) => {
     const { userId } = req.params;
+    const approvedBy = req.body.approvedBy
 
     try {
+        const adminAprover = await User.findById(approvedBy);
+        if (!adminAprover) {
+            return res.status(403).json({ message: "User not Unauthorized to Approve" })
+        }
+
         const user = await User.findById(userId);
         if (!user) {
             return res.status(404).json({ message: "User not found" });
@@ -111,7 +128,7 @@ export const getAllUsers = async (req: Request, res: Response) => {
 
 // User/Admin updates their own profile (excluding role and approval status)
 export const updateUserProfile = async (req: Request, res: Response) => {
-    const updates = req.body;
+    const updates: UpdateUserInput = req.body;
     delete updates.role; // Prevent role from being updated by user
     delete updates.isApproved; // Prevent approval status from being updated by user
 

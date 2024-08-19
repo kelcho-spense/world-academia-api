@@ -31,7 +31,7 @@ export const createUniversitySchema = object({
         student_population: number({
             required_error: "Student population is required",
         }).positive("Student population must be a positive number"),
-        
+
         programs_offered: array(string({
             required_error: "Program is required",
         })).nonempty({
@@ -52,3 +52,113 @@ export const createUniversitySchema = object({
         longitude: number().nullable().optional(), // Nullable and optional
     }),
 });
+
+/**
+ * @openapi
+ * components:
+ *   schemas:
+ *     CreateUniversityInput:
+ *       type: object
+ *       required:
+ *         - country
+ *         - alpha_two_code
+ *         - domains
+ *         - web_pages
+ *         - name
+ *         - continent
+ *         - established_year
+ *         - student_population
+ *         - programs_offered
+ *       properties:
+ *         country:
+ *           type: string
+ *           example: "United States"
+ *         alpha_two_code:
+ *           type: string
+ *           minLength: 2
+ *           maxLength: 2
+ *           example: "US"
+ *         domains:
+ *           type: array
+ *           items:
+ *             type: string
+ *           minItems: 1
+ *           example: ["example.edu"]
+ *         state_province:
+ *           type: string
+ *           nullable: true
+ *           example: "California"
+ *         web_pages:
+ *           type: array
+ *           items:
+ *             type: string
+ *           minItems: 1
+ *           example: ["http://www.example.edu"]
+ *         name:
+ *           type: string
+ *           example: "Example University"
+ *         continent:
+ *           type: string
+ *           example: "North America"
+ *         established_year:
+ *           type: integer
+ *           minimum: 1000
+ *           maximum: 2024  # Assuming the current year
+ *           example: 1850
+ *         student_population:
+ *           type: integer
+ *           minimum: 1
+ *           example: 15000
+ *         programs_offered:
+ *           type: array
+ *           items:
+ *             type: string
+ *           minItems: 1
+ *           example: ["Computer Science", "Engineering"]
+ *         contact_info:
+ *           type: object
+ *           properties:
+ *             address:
+ *               type: string
+ *               example: "123 University Ave, City, Country"
+ *             phone:
+ *               type: string
+ *               example: "+1-234-567-890"
+ *             email:
+ *               type: string
+ *               format: email
+ *               example: "info@example.edu"
+ *           required:
+ *             - address
+ *             - phone
+ *             - email
+ *         latitude:
+ *           type: number
+ *           nullable: true
+ *           example: 37.7749
+ *         longitude:
+ *           type: number
+ *           nullable: true
+ *           example: -122.4194
+ * 
+ *   responses:
+ *     UnauthorizedError:
+ *       description: Access token is missing or invalid
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               message:
+ *                 type: string
+ *                 example: "Unauthorized"
+ * 
+ *   requestBodies:
+ *     CreateUniversity:
+ *       description: University object that needs to be added
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             $ref: '#/components/schemas/CreateUniversityInput'
+ */
