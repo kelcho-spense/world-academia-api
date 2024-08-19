@@ -52,7 +52,7 @@ export const getUniversity = async (req: Request, res: Response): Promise<void> 
     }
 
     res.status(200).json(university);
-  } catch (error:any) {
+  } catch (error: any) {
     timer({ ...metricsLabels, success: "false" });
     res.status(500).json({ error: error.message });
   }
@@ -70,7 +70,7 @@ export const createUniversity = async (req: Request, res: Response): Promise<voi
     const savedUniversity = await newUniversity.save();
     timer({ ...metricsLabels, success: "true" });
     res.status(201).json(savedUniversity);
-  } catch (error:any) {
+  } catch (error: any) {
     timer({ ...metricsLabels, success: "false" });
     res.status(500).json({ error: error.message });
   }
@@ -98,7 +98,7 @@ export const updateUniversity = async (req: Request, res: Response): Promise<voi
     }
     timer({ ...metricsLabels, success: "true" });
     res.status(200).json(updatedUniversity);
-  } catch (error:any) {
+  } catch (error: any) {
     timer({ ...metricsLabels, success: "false" });
     res.status(500).json({ error: error.message });
   }
@@ -117,7 +117,7 @@ export const deleteUniversity = async (req: Request, res: Response): Promise<voi
     }
 
     res.status(200).json({ message: 'University deleted successfully' });
-  } catch (error:any) {
+  } catch (error: any) {
     res.status(500).json({ error: error.message });
   }
 };

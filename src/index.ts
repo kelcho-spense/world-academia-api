@@ -39,9 +39,37 @@ app.use('/api', userRouter);
 app.use('/api', universityRouter);
 app.use('/api', ingestRouter)
 
+// app.get('/', (req, res) => {
+//     const fullUrl = `${req.protocol}://${req.get('host')}${req.originalUrl}`;
+//     // res.send(`Full URL is: ${fullUrl}`);
+
+//     res.status(200).json({ message: "API healthy", fullUrl })
+// })
+
 app.get('/', (req, res) => {
-    res.status(200).json({ message: "API healthy" })
-})
+    const fullUrl = `${req.protocol}://${req.get('host')}${req.originalUrl}`;
+    res.send(`
+        <html>
+            <head>
+                <title>world academia</title>
+                <style>
+                    body { font-family: Arial, sans-serif; line-height: 1.6; }
+                    .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+                    h1 { color: #333; }
+                    p { margin: 10px 0; }
+                    a { color: #1e90ff; text-decoration: none; }
+                </style>
+            </head>
+            <body>
+                <div class="container">
+                    <h1>Welcome to World Academia REST API</h1>
+                    <p>📚 API Documentation available at: <a href="${fullUrl}docs">${fullUrl}docs</a></p>
+                    <p>🎇 Metrics server started at: <a href="${fullUrl}metrics">${fullUrl}metrics</a></p>
+                </div>
+            </body>
+        </html>
+    `);
+});
 
 
 // Start the server
@@ -50,12 +78,12 @@ app.listen(config.port, () => {
     connectMongo()
     swaggerDocs(app, config.port)
     if (process.env.NODE_ENV == "development") {
-        logger.info(`Server running on http://localhost:${config.port}`); 
-        logger.info(`Docs available at http://localhost:${config.port}/docs`);   
-        logger.info("Metrics server started at http://localhost:${config.port}/metrics");       
+        logger.info(`Server running on http://localhost:${config.port}`);
+        logger.info(`Docs available at http://localhost:${config.port}/docs`);
+        logger.info(`Metrics server started at http://localhost:${config.port}/metrics`);
     } else {
-        logger.info(`Server running on port :${config.port}`);  
-        logger.info(`Docs available at /docs`);   
-        logger.info("Metrics server started at /metrics");     
+        logger.info(`Server running on port :${config.port}`);
+        logger.info(`Docs available at /docs`);
+        logger.info("Metrics server started at /metrics");
     }
 });

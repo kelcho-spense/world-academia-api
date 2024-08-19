@@ -172,27 +172,7 @@ export default userRouter;
  *         '401':
  *           $ref: '#/components/responses/UnauthorizedError'
  * 
- *   /api/shared-action:
- *     get:
- *       summary: Perform a shared action available to both user and admin roles
- *       tags:
- *         - Shared
- *       security:
- *         - bearerAuth: []
- *       responses:
- *         '200':
- *           description: Shared action performed successfully
- *           content:
- *             application/json:
- *               schema:
- *                 type: object
- *                 properties:
- *                   message:
- *                     type: string
- *                     example: "Shared action performed successfully"
- *         '401':
- *           $ref: '#/components/responses/UnauthorizedError'
- * 
+ *    
  * components:
  *   schemas:
  *     CreateUserInput:

@@ -109,6 +109,10 @@ PUT http://localhost:8000/api/auth/approve/66c1f05fc1b9c4add56ef270
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YzEzM2FhYTg0ZGVmZjA0OGI4ODU1MSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcyMzk4NjAzMSwiZXhwIjoxNzIzOTg5NjMxfQ.7wTMvwtb3aQgZgJyqoUdFsrP-4k1WYsKxSobzMNg964
 Accept: application/json
 
+{
+  "approvedBy": "60c72b2f9b1d8e6a5b9f9f91"
+}
+
 ###
 # Get all Users (Admin only)
 GET http://localhost:8000/api/auth/users

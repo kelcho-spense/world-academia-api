@@ -8,8 +8,8 @@ const options: swaggerJsdoc.Options = {
         openapi: "3.0.0",
         info: {
             title: "World Academia API",
-            description: "API for managing universities.",
-            version: "1.0.0"
+            description: "Welcome to the My RESTful Server API, a comprehensive and flexible platform designed for managing university-related data. This API allows you to perform CRUD (Create, Read, Update, Delete) operations on universities, enabling easy management and retrieval of educational institutions.",
+            version: "1.9.0"
         },
         components: {
             securitySchemes: {
