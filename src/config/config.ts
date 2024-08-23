@@ -1,8 +1,6 @@
 
 import IConfig from './IConfig'
-import dotenv from 'dotenv';
-
-dotenv.config();
+import "dotenv/config"
 
 const env = process.env.NODE_ENV as string;
 

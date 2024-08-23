@@ -4,53 +4,53 @@ import { Request, Response } from "express";
 import User from "../models/user.model";
 import mongoose from "mongoose";
 import { UpdateUserInput, CreateUserInput, LoginUserInput } from '../schema/user.schema'
+import "dotenv/config"
 
 const JWT_SECRET = process.env.JWT_SECRET as string
 
 // Login function for users and admins
 export const loginUser = async (req: Request, res: Response) => {
     const loginUsersInput: LoginUserInput = req.body;
+    console.log(loginUsersInput)
 
     try {
         // Find the user by email
-        const user = await User.findOne({ email: loginUsersInput.email });
+        console.log("1")
+        const user = await User.findOne({ email: loginUsersInput.email })
         if (!user) {
             return res.status(400).json({ message: "Invalid credentials" });
         }
-
+        console.log("2")
         if (!user.isApproved) {
             return res.status(403).json({ message: "User not approved" });
         }
-
+        console.log("3")
         // Check if the password is correct
         const isMatch = await bcrypt.compare(loginUsersInput.password, user.password);
         if (!isMatch) {
             return res.status(400).json({ message: "Invalid credentials" });
         }
-
-        // // Check if the user is approved
-        // if (!user.isApproved && user.role !== "admin") {
-        //     return res.status(403).json({ message: "User not approved" });
-        // }
-
+        console.log("4")
+        console.log({ user })
+        console.log(JWT_SECRET)
         // Generate JWT token
         const token = jwt.sign(
             { id: user._id, role: user.role },
             JWT_SECRET,
-            { expiresIn: "1h" }
+            { expiresIn: "12h" }
         );
-
+        console.log("5")
         const userDetails = {
-            userId : user._id,
+            userId: user._id,
             email: user.email,
             role: user.role,
         }
-
+        console.log("6")
         const Bearer = `Bearer ${token}`;
 
         res.json({ Bearer, user: userDetails });
     } catch (err) {
-        res.status(500).json({ message: "Server error" });
+        res.status(500).json({ message: "Server error" + err });
     }
 };
 

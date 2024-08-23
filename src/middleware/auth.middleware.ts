@@ -1,6 +1,7 @@
 import { Request, Response, NextFunction  } from "express";
 import jwt from "jsonwebtoken";
 import User from "../models/user.model";
+import 'dotenv/config'
 
 const JWT_SECRET = process.env.JWT_SECRET || "your_jwt_secret_key";
 
@@ -19,7 +20,7 @@ export const authMiddleware = (requiredRole?: string) => {
       const user = await User.findById(decoded.id);
 
       if (!user) {
-        return res.status(404).json({ message: "User not found" });
+        return res.status(401).json({ message: "User not found" });
       }
 
       // Allow shared action for both 'user' and 'admin' roles

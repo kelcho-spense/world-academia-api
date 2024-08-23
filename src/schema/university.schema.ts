@@ -53,6 +53,7 @@ export const createUniversitySchema = object({
     }),
 });
 
+
 /**
  * @openapi
  * components:
@@ -103,7 +104,7 @@ export const createUniversitySchema = object({
  *         established_year:
  *           type: integer
  *           minimum: 1000
- *           maximum: 2024  # Assuming the current year
+ *           maximum: 2024
  *           example: 1850
  *         student_population:
  *           type: integer
@@ -140,25 +141,4 @@ export const createUniversitySchema = object({
  *           type: number
  *           nullable: true
  *           example: -122.4194
- * 
- *   responses:
- *     UnauthorizedError:
- *       description: Access token is missing or invalid
- *       content:
- *         application/json:
- *           schema:
- *             type: object
- *             properties:
- *               message:
- *                 type: string
- *                 example: "Unauthorized"
- * 
- *   requestBodies:
- *     CreateUniversity:
- *       description: University object that needs to be added
- *       required: true
- *       content:
- *         application/json:
- *           schema:
- *             $ref: '#/components/schemas/CreateUniversityInput'
  */

@@ -42,5 +42,8 @@ const UniversitySchema: Schema = new Schema({
     longitude: { type: Number, default: null }
 });
 
+// Create indexes on the fields to improve query performance
+UniversitySchema.index({country: 1, continent: 1})
+
 // Export the University model
 export default mongoose.model<IUniversity>('University', UniversitySchema);

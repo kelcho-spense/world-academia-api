@@ -12,23 +12,31 @@ Accept: application/json
 
 ###
 # Get all Universities
-GET http://localhost:8000/api/universities
+GET http://localhost:8000/api/universities?country=kenya
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YzJlZjJmNjAzYjRjNDE1MDk0MzEyYyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcyNDQwNTIyMCwiZXhwIjoxNzI0NDQ4NDIwfQ.UrBO4JRkV18-AdYtIVcBO0Gse8D5ZkemEmqDEj5U_Wg
+
+###
+# Get all Universities with paginations
+GET http://localhost:8000/api/universities?page=1&limit=10?country=burundi
 Accept: application/json
 
 ###
-# Get all Universities with filters
-GET http://localhost:8000/api/universities?country=burundi
+# Get all Universities with filters & with paginations
+GET http://localhost:8000/api/universities?page=1&limit=3?country=burundi
 Accept: application/json
 
 ###
 # Get a University by ID
-GET http://localhost:8000/api/universities/63bf99ef0f470d3923c7ca6f
+GET http://localhost:8000/api/universities/66c261d71d8197461b51577b
 Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YzJlZjJmNjAzYjRjNDE1MDk0MzEyYyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcyNDQwMDc3NiwiZXhwIjoxNzI0NDA0Mzc2fQ.Y2-Z067oXEza5rxkfwK0clRUyh_QmXXZiruYT2q4NuQ
+
 
 ###
 # Create a new University
 POST http://localhost:8000/api/universities
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YzJlZjJmNjAzYjRjNDE1MDk0MzEyYyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcyNDA1MTI1NCwiZXhwIjoxNzI0MDU0ODU0fQ.d8R4oRCmmrvTBHqC2olom6mseR0Ce-B-enNYjMBl2dI
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YzJlZjJmNjAzYjRjNDE1MDk0MzEyYyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcyNDM2MzM4MSwiZXhwIjoxNzI0MzY2OTgxfQ.uwYHG1nYGXps38pV7K29IUtuTwHMfj0DlOxaHIltKmc
 Content-Type: application/json
 Accept: application/json
 
@@ -77,12 +85,12 @@ Accept: application/json
 
 ###
 # Delete a University
-DELETE http://localhost:8000/api/universities/66c10d8fa7d8a9d2ba0973f7
+DELETE http://localhost:8000/api/universities/66c261d71d8197461b51577b
 Accept: application/json
 
 ###
 # Register a new User or Admin
-POST http://localhost:8000/api/auth/register
+POST http://localhost:8000/api/register
 Content-Type: application/json
 Accept: application/json
 
@@ -94,7 +102,7 @@ Accept: application/json
 
 ###
 # Login as User or Admin
-POST http://localhost:8000/api/auth/login
+POST http://localhost:8000/api/login
 Content-Type: application/json
 Accept: application/json
 
@@ -105,7 +113,7 @@ Accept: application/json
 
 ###
 # Approve a User (Admin only)
-PUT http://localhost:8000/api/auth/approve/66c1f05fc1b9c4add56ef270
+PUT http://localhost:8000/api/approve/66c1f05fc1b9c4add56ef270
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YzEzM2FhYTg0ZGVmZjA0OGI4ODU1MSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcyMzk4NjAzMSwiZXhwIjoxNzIzOTg5NjMxfQ.7wTMvwtb3aQgZgJyqoUdFsrP-4k1WYsKxSobzMNg964
 Accept: application/json
 
@@ -115,13 +123,13 @@ Accept: application/json
 
 ###
 # Get all Users (Admin only)
-GET http://localhost:8000/api/auth/users
+GET http://localhost:8000/api/users
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YzEzM2FhYTg0ZGVmZjA0OGI4ODU1MSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcyMzkzNzg1MSwiZXhwIjoxNzIzOTQxNDUxfQ.dXXQb32G8qrh4P1mQNbS2lTDBWlG5h3S-MQmC9JnpAs
 Accept: application/json
 
 ###
 # Update User or Admin's own profile
-PUT http://localhost:8000/api/auth/me
+PUT http://localhost:8000/api/me
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YzEzM2FhYTg0ZGVmZjA0OGI4ODU1MSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcyMzkzNzc1NywiZXhwIjoxNzIzOTQxMzU3fQ.FCTYz4XzS_rU1XysbCpwN5MszYCqdTxmBJ_srKtGhv8
 Content-Type: application/json
 Accept: application/json
@@ -133,12 +141,7 @@ Accept: application/json
 
 ###
 # Delete User or Admin's own profile
-DELETE http://localhost:8000/api/auth/me
+DELETE http://localhost:8000/api/me
 Authorization: Bearer <your_user_or_admin_jwt_token>
 Accept: application/json
 
-###
-# Shared Action accessible by both Users and Admins
-GET http://localhost:8000/api/auth/shared-action
-Authorization: Bearer <your_user_or_admin_jwt_token>
-Accept: application/json

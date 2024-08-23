@@ -17,6 +17,8 @@ const UserSchema: Schema = new Schema({
   approvedBy: { type: mongoose.Schema.Types.ObjectId, ref: "User" }, // Reference to an admin
 });
 
+
+
 // Hash password before saving the user
 UserSchema.pre<IUser>("save", async function (next) {
   // Only hash the password if it has been modified or is new

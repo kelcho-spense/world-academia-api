@@ -7,7 +7,9 @@ import { authMiddleware } from "../middleware/auth.middleware";
 const universityRouter: Router = Router();
 
 universityRouter.get('/universities',authMiddleware("admin"), getUniversities); // Get all universities with optional filters
+// universityRouter.get('/universities', getUniversities); // Get all universities with optional filters
 universityRouter.get('/universities/:id',authMiddleware("admin"), getUniversity); // Get a specific university by ID
+// universityRouter.get('/universities/:id', getUniversity); // Get a specific university by ID
 universityRouter.post('/universities', authMiddleware("admin"), validateReq(createUniversitySchema), createUniversity); // Create a new university (Admin only)
 universityRouter.put('/universities/:id', authMiddleware("admin"), validateReq(createUniversitySchema), updateUniversity); // Update a university by ID (Admin only)
 universityRouter.delete('/universities/:id', authMiddleware("admin"), deleteUniversity); // Delete a university by ID (Admin only)
@@ -19,18 +21,88 @@ export default universityRouter;
  * paths:
  *   /api/universities:
  *     get:
- *       summary: Get all universities with optional filters
+ *       summary: Get all universities with optional filters and pagination
  *       tags:
  *         - Universities
+ *       parameters:
+ *         - in: query
+ *           name: country
+ *           schema:
+ *             type: string
+ *           description: Filter universities by country (case-insensitive).
+ *         - in: query
+ *           name: continent
+ *           schema:
+ *             type: string
+ *           description: Filter universities by continent (case-insensitive).
+ *         - in: query
+ *           name: name
+ *           schema:
+ *             type: string
+ *           description: Search universities by name (case-insensitive).
+ *         - in: query
+ *           name: established_year
+ *           schema:
+ *             type: integer
+ *           description: Filter universities by the year they were established.
+ *         - in: query
+ *           name: program
+ *           schema:
+ *             type: string
+ *           description: Search universities by programs offered (case-insensitive).
+ *         - in: query
+ *           name: page
+ *           schema:
+ *             type: integer
+ *           description: The page number for pagination (default is 1).
+ *         - in: query
+ *           name: limit
+ *           schema:
+ *             type: integer
+ *           description: The number of results per page (default is 10).
  *       responses:
  *         '200':
- *           description: A list of universities
+ *           description: A list of universities with pagination metadata
  *           content:
  *             application/json:
  *               schema:
- *                 type: array
- *                 items:
- *                   $ref: '#/components/schemas/CreateUniversityInput'
+ *                 type: object
+ *                 properties:
+ *                   page:
+ *                     type: integer
+ *                     description: The current page number.
+ *                   limit:
+ *                     type: integer
+ *                     description: The number of results per page.
+ *                   total:
+ *                     type: integer
+ *                     description: The total number of universities matching the filters.
+ *                   totalPages:
+ *                     type: integer
+ *                     description: The total number of pages available.
+ *                   data:
+ *                     type: array
+ *                     items:
+ *                       $ref: '#/components/schemas/CreateUniversityInput'
+ *         '400':
+ *           description: Invalid query parameters
+ *           content:
+ *             application/json:
+ *               schema:
+ *                 type: object
+ *                 properties:
+ *                   message:
+ *                     type: string
+ *                     example: "Unknown filter parameter: xyz"
+ *         '500':
+ *           description: Server error
+ *           content:
+ *             application/json:
+ *               schema:
+ *                 type: object
+ *                 properties:
+ *                   error:
+ *                     type: string
  *         '401':
  *           $ref: '#/components/responses/UnauthorizedError'
  *
@@ -48,7 +120,7 @@ export default universityRouter;
  *           content:
  *             application/json:
  *               schema:
- *                 $ref: '#/components/schemas/CreateUniversityInput'
+ *                 $ref: '#/components/schemas/University'
  *         '400':
  *           description: Bad Request
  *         '401':
@@ -72,9 +144,17 @@ export default universityRouter;
  *           content:
  *             application/json:
  *               schema:
- *                 $ref: '#/components/schemas/CreateUniversityInput'
+ *                 $ref: '#/components/schemas/University'
  *         '404':
  *           description: University not found
+ *           content:
+ *             application/json:
+ *               schema:
+ *                 type: object
+ *                 properties:
+ *                   error:
+ *                     type: string
+ *                     example: "University not found"
  *         '401':
  *           $ref: '#/components/responses/UnauthorizedError'
  *
@@ -121,14 +201,27 @@ export default universityRouter;
  *             type: string
  *           description: The university ID
  *       responses:
- *         '204':
+ *         '200':
  *           description: University deleted successfully
+ *           content:
+ *             application/json:
+ *               schema:
+ *                 type: object
+ *                 properties:
+ *                   message:
+ *                     type: string
+ *                     example: "University deleted successfully"
  *         '404':
  *           description: University not found
+ *           content:
+ *             application/json:
+ *               schema:
+ *                 type: object
+ *                 properties:
+ *                   error:
+ *                     type: string
+ *                     example: "University not found"
  *         '401':
  *           $ref: '#/components/responses/UnauthorizedError'
  *
- *   
- *
- * 
  */
