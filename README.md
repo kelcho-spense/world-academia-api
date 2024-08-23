@@ -1,3 +1,7 @@
+Your `README.md` file is already comprehensive and well-organized. However, I suggest adding information about the testing setup, performance testing, and any additional tools or libraries you might have added. Here's an updated version of your README that includes those elements:
+
+---
+
 # Restful API Express
 
 This is a RESTful API built with Node.js, Express, and TypeScript, designed to manage a university's internal data. It provides endpoints for managing users, including roles like `user` and `admin`, and supports authentication with JWT.
@@ -14,7 +18,12 @@ This is a RESTful API built with Node.js, Express, and TypeScript, designed to m
   - [Running Locally](#running-locally)
   - [Building the Project](#building-the-project)
   - [Using Docker](#using-docker)
+- [Testing](#testing)
+  - [Unit Tests](#unit-tests)
+  - [End-to-End Testing](#end-to-end-testing)
+  - [Performance Testing](#performance-testing)
 - [API Endpoints](#api-endpoints)
+- [Project Structure](#project-structure)
 - [License](#license)
 
 ## Features
@@ -25,6 +34,8 @@ This is a RESTful API built with Node.js, Express, and TypeScript, designed to m
 - MongoDB integration
 - Rate limiting and security best practices
 - Environment-based configurations
+- Unit and end-to-end testing
+- Performance testing with K6
 
 ## Technologies Used
 
@@ -37,6 +48,10 @@ This is a RESTful API built with Node.js, Express, and TypeScript, designed to m
 - **Docker Compose**: Tool for defining and running multi-container Docker applications
 - **JWT (JSON Web Tokens)**: For secure authentication
 - **Pino**: HTTP request logging
+- **Jest**: Testing framework
+- **Supertest**: HTTP assertions for testing
+- **K6**: Performance testing tool
+- **Swagger UI**: API documentation
 
 ## Prerequisites
 
@@ -66,9 +81,9 @@ npm install
 
 Create a `.env` file in the root of your project and configure the necessary environment variables. Here's a sample `.env` file:
 
-```
+```plaintext
 PORT=8000
-NODE_ENV=development   ## NODE_ENV=production or development
+NODE_ENV=development
 MONGO_URI=mongodb://localhost:27017/tododb
 COSMOS_URI=
 JWT_SECRET=your_jwt_secret_key
@@ -122,6 +137,40 @@ To stop the running Docker containers, use:
 docker-compose down
 ```
 
+## Testing
+
+### Unit Tests
+
+Run the unit tests with:
+
+```bash
+npm run test
+```
+
+This will execute tests using the `Jest` framework, ensuring the core functionality of your application is working as expected.
+
+### End-to-End Testing
+
+End-to-end tests are located in the `src/__tests__/e2e` directory. You can run these tests using:
+
+```bash
+npm run test:e2e
+```
+
+These tests ensure that your API works correctly from start to finish.
+
+### Performance Testing
+
+Performance testing is handled using `K6`. You can find performance test scripts in the `src/__tests__/k6-performance` directory.
+
+To run a performance test, execute:
+
+```bash
+k6 run src/__tests__/k6-performance/test-script.js
+```
+
+This helps identify potential bottlenecks in your application.
+
 ## API Endpoints
 
 You can interact with the API using tools like Postman or `curl`. Here's a summary of the available endpoints:
@@ -141,6 +190,9 @@ Refer to the `app.http` file for more detailed examples of API requests.
 ```plaintext
 ├── dist/                     # Compiled output
 ├── src/                      # Source files
+│   ├── __tests__/            # Test files
+│   │   ├── e2e/              # End-to-end tests
+│   │   └── k6-performance/   # Performance tests with K6
 │   ├── controllers/          # Route controllers
 │   ├── middleware/           # Express middleware
 │   ├── models/               # Mongoose models
@@ -161,7 +213,7 @@ Refer to the `app.http` file for more detailed examples of API requests.
 
 This project is licensed under the ISC License - see the [LICENSE](LICENSE) file for details.
 
-```
+---
 
 ### Notes:
 
@@ -170,4 +222,4 @@ This project is licensed under the ISC License - see the [LICENSE](LICENSE) file
 3. **API Endpoints**: The endpoints are summarized for quick reference. For more detailed examples and usage, users can refer to the `app.http` file.
 4. **Project Structure**: This section provides a high-level overview of the directory structure to help users navigate the project.
 
-This `README.md` should give anyone who clones the repository clear instructions on how to get started, whether they are running the project locally or using Docker.
+This updated `README.md` provides detailed instructions on the new testing features and additional tools, ensuring that developers can easily understand and contribute to your project.
