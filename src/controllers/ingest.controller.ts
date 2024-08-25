@@ -31,7 +31,14 @@ export const ingestOneFile = async (req: Request, res: Response): Promise<void> 
         res.status(200).json({ message: 'Data ingestion complete', insertedCount, skippedCount });
     } catch (error: any) {
         timer({ ...metricsLabels, success: "false" });
-        res.status(500).json({ error: error.message });
+
+        if (error.code === 'ENOENT') {
+            // File not found error
+            res.status(404).json({ error: `File '${file}.json' not found` });
+        } else {
+            // Other errors
+            res.status(500).json({ error: error.message });
+        }
     }
 };
 
